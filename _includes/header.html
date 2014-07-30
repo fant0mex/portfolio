@@ -7,17 +7,18 @@
             <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
           </div>
           <div class="pull-right">
-            {% assign sorted_pages = site.pages | sort:"name" %}
-            {% for node in sorted_pages %}
-              <a href="{{node.url}}">{{node.title}}</a>
-            {% endfor %}
+            <div class="menu">
+              <ul>
+              {% for page in site.pages %}
+                {% if page.title %}
+                  <li>
+                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </nav>
-
-
-
-
-
-
