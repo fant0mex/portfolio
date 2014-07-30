@@ -1,0 +1,27 @@
+  {% include head.html %}
+    {% include header.html %}
+      <section class="header-10-sub v-center">
+        <div class="bckgrnd-profile"></div>
+        <div>
+          <div class="container">
+            <div class="hero-caption profile">
+              {% if page.title == "Profile" %}
+              <h5>I am passionate about</h5>
+              <h1>Code</h1>
+              <h5>and solving digital dilemmas</h5>
+              {% elsif page.title == "Blog" %}
+              <h5>Thoughts</h5>
+              <h1>Ramblings</h1>
+              <h5>Musings</h5>
+              {% else %}
+              <p>Broken?</p>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
+      </section>
+      {{ content }}
+
+
+    {% include footer.html %}
