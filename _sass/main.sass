@@ -1,5 +1,4 @@
----
----
+@import "compass"
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700)
 
@@ -128,20 +127,25 @@ a.site-title
       .workimg
         background-image: url("/img/work/dias/dias_header.jpg")!important
         background-size: cover
+        width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        opacity: 0.6
+        +transition(opacity 0.5s ease-in)
+        &:hover,
+        &:focus
+          opacity: 1
         &.sheff
           background-image: url("/img/work/sheff/cinema.png")!important
         &.nattrust
           background-image: url("/img/work/nat_trust/bridge.jpg")!important
 
-.workimg
-  width: 100%
-  height: 100%
-  position: absolute
-  top: 0
-  left: 0
-  opacity: 0.5
 
-.work-header
+
+
+div.work-header
   position: relative
   display: inline-block
   left: 0
@@ -152,6 +156,8 @@ a.site-title
   line-height: 20px
   margin: 0 auto
   z-index: 40
+  pointer-events: none
+
   h2
     margin: 0
     font-size: 48px
