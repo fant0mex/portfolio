@@ -1,5 +1,5 @@
 $('a[href^="#"]').click(function() {
-  $('html,body').animate({ scrollTop: $(this.hash).offset().top}, 400);
+  $('html,body').animate({ scrollTop: $(this.hash).offset().top}, 500);
     return false;
     e.preventDefault();
 });
@@ -52,8 +52,8 @@ $('.parallax').parallax({
 speed : -0.5
 });
 
-var fadeStart=250, // 100px scroll or less will equiv to 1 opacity
-fadeUntil=550, // 200px scroll or more will equiv to 0 opacity
+var fadeStart=150, // 100px scroll or less will equiv to 1 opacity
+fadeUntil=650, // 200px scroll or more will equiv to 0 opacity
 fading = $('.default');
 
 $(window).bind('scroll', function(){
