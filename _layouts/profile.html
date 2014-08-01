@@ -1,10 +1,9 @@
   {% include head.html %}
     {% include header.html %}
-      <section class="header-sub center" style="height:540px;">
-        {% if page.title == "Profile" %}
-        <div class="bckgrnd profile"></div>
-        {% elsif page.title == "Blog" %}
-        <div class="bckgrnd blog"></div>
+    {% if page.title == "Profile" %}
+      <section class="header-sub center profile" style="height:540px;">
+    {% elsif page.title == "Blog" %}
+      <section class="header-sub center blog" style="height:540px;">
          {% else %}
         <p>Broken?</p>
         {% endif %}

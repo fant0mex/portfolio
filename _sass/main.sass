@@ -53,32 +53,19 @@ a.site-title
   font-size: 18px
   color: #e0e0e0
 
-.bckgrnd
-  position: absolute
-  background-image: url("/img/chisels.jpg")!important
-  background: 50% 50% no-repeat
-  top: 0
-  left: 0
-  right: 0
-  bottom: 0
-  z-index: 1
-  background-size: cover
-  -webkit-filter: brightness(60%)
-  &.profile
-    background-image: url("/img/profile.jpg")!important
-  &.blog
-    background-image: url("/img/radio.jpg")!important
-.header-sub.center
-  width: 100%
-
 .header-sub
-  position: relative
-  z-index: 50
   color: #FFF
   text-align: center
-  &.center
-    width: 100%
-
+  background-image: url("/img/chisels.jpg")!important
+  background-repeat: no-repeat
+  background-position: 50% top
+  background-size: cover
+  &.profile
+    background-image: url("/img/profile.jpg")!important
+    background-position: 50% 50%
+  &.blog
+    background-image: url("/img/radio.jpg")!important
+    background-position: 50% 50%
   > div
     display: relative
     vertical-align: middle
@@ -117,7 +104,7 @@ a.site-title
     list-style: none
     margin: 0
     padding: 0
-    >li.dias
+    >li.dias, li.sheff, li.ntrust
       width: 100%
       position: relative
       line-height: 290px
