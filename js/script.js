@@ -1,15 +1,3 @@
-$('a[href^="#"]').click(function() {
-  $('html,body').animate({ scrollTop: $(this.hash).offset().top}, 500);
-    return false;
-    e.preventDefault();
-});
-
-
-$('li.dias').click(function(){
-  $('li.dias').animate({height:'779px'}, 500);
-});
-
-
 (function($) {
   $.fn.parallax = function(options) {
 
@@ -52,17 +40,68 @@ $('.parallax').parallax({
 speed : -0.5
 });
 
-var fadeStart=150, // 100px scroll or less will equiv to 1 opacity
-fadeUntil=650, // 200px scroll or more will equiv to 0 opacity
-fading = $('.default');
 
-$(window).bind('scroll', function(){
-    var offset = $(document).scrollTop(),
-      opacity=0;
-    if( offset<=fadeStart ){
-        opacity=1;
-    }else if( offset<=fadeUntil ){
-        opacity=1-offset/fadeUntil;
-    }
-    fading.css('opacity', opacity);
-});
+// $('a[href^="#"]').click(function() {
+//  $('#work').velocity('scroll', { duration: 400 });
+// });
+
+
+// $('.dias').click(function() {
+//   $('.dias').velocity("scroll", { duration: 750, offset: -290 });
+//   setTimeout(function() {
+//     /* Will run in parallel starting at the 5000ms mark. */
+
+//     $('.dias').velocity("scroll", { duration: 600, offset: -0}, { queue: false }),
+//     $('.dias').velocity({ height: "779px" }, { queue: false });
+//   }, 870);
+//   $('.dias').on('scroll touchmove mousewheel', function(e){
+//   e.preventDefault();
+//   e.stopPropagation();
+//   $('html, body').css({
+//     'overflow': 'hidden'})
+//   return false;
+//   })
+// });
+
+// $('.sheff').click(function() {
+//   $('.sheff').velocity("scroll", { duration: 750, offset: -290 });
+//   setTimeout(function() {
+//     /* Will run in parallel starting at the 5000ms mark. */
+
+//     $('.sheff').velocity("scroll", { duration: 600, offset: -0}, { queue: false }),
+//     $('.sheff').velocity({ height: "779px" }, { queue: false });
+//   }, 20);
+//   $('.sheff').on('scroll touchmove mousewheel', function(e){
+//   e.preventDefault();
+//   e.stopPropagation();
+//   $('html, body').css({
+//     'overflow': 'hidden'})
+//   return false;
+//   })
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
