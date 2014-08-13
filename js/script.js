@@ -42,15 +42,13 @@ speed : -0.5
 
 
 $('a[href^="#"]').click(function() {
- $('#work').velocity('scroll', { duration: 400 });
+ $('#work').velocity('scroll', { duration: 600 });
 });
 
 
-$('.dias').click(function(a) {
+$('.dias').click(function() {
   $('.dias').velocity("scroll", { duration:800, offset:-290, easing:"easeInOutQuint"});
   setTimeout(function() {
-    /* Will run in parallel starting at the 5000ms mark. */
-
     $('.dias').velocity("scroll", { duration: 600, offset: -0}, { queue: false }),
     $('.dias').velocity({ height: "779px" }, { queue: false });
   }, 870);
@@ -62,45 +60,14 @@ $('.dias').click(function(a) {
   return false;
   })
   setTimeout(function() {
-    $('.dias').addClass("openWork loading"),
-    $('.info').children().addClass("reveal");
-    $( ".dias" ).prepend( "<a class='closeBtn'>CLOSE</a>" );
+    $('.dias').addClass("openWork loading")
+
   }, 1250);
+  setTimeout(function() {
+    $('.info').children().addClass("reveal"),
+    $( ".dias" ).prepend( "<a class='closeBtn'>CLOSE</a>" )
+  }, 1600);
 });
-
-// $('.sheff').click(function() {
-//   $('.sheff').velocity("scroll", { duration: 750, offset: -290, easing:"easeInOutQuint" });
-//   setTimeout(function() {
-//     /* Will run in parallel starting at the 5000ms mark. */
-
-//     $('.sheff').velocity("scroll", { duration: 600, offset: -0}, { queue: false }),
-//     $('.sheff').velocity({ height: "779px" }, { queue: false });
-//   }, 720);
-//   $('.sheff').on('scroll touchmove mousewheel', function(e){
-//   e.preventDefault();
-//   e.stopPropagation();
-//   $('html, body').css({
-//     'overflow': 'hidden'});
-//   return false;
-//   })
-// });
-
-// $('.ntrust').click(function() {
-//   $('.ntrust').velocity("scroll", { duration: 750, offset: -290, easing:"easeInOutQuint" });
-//   setTimeout(function() {
-//     /* Will run in parallel starting at the 5000ms mark. */
-
-//     $('.ntrust').velocity("scroll", { duration: 600, offset: -0}, { queue: false }),
-//     $('.ntrust').velocity({ height: "779px" }, { queue: false });
-//   }, 720);
-//   $('ntrust').on('scroll touchmove mousewheel', function(e){
-//   e.preventDefault();
-//   e.stopPropagation();
-//   $('html, body').css({
-//     'overflow': 'hidden'});
-//   return false;
-//   })
-// })
 
 
 
