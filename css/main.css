@@ -294,7 +294,6 @@ section#work li.ntrust .visual {
 /* line 231, ../_sass/main.sass */
 a.closeBtn {
   position: fixed;
-  opacity: 0;
   z-index: 100;
   top: 20px !important;
   left: 20px;
@@ -304,6 +303,7 @@ a.closeBtn {
   line-height: 10px;
   font-size: 16px;
   color: white;
+  display: none;
 }
 /* line 243, ../_sass/main.sass */
 a.closeBtn::before {
