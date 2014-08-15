@@ -18,6 +18,13 @@ body
     margin-bottom: 0
     padding: 0
 
+a:-webkit-any-link
+  cursor: auto
+
+html.stopScroll, html.stopScroll body
+  overflow: hidden
+  position: relative
+
 /* Header Home*/
 
 nav
@@ -232,6 +239,7 @@ a.closeBtn
   text-transform: uppercase
   line-height: 10px
   font-size: 16px
+  color: #FFF
   &::before
     content: ''
     width: 16px
@@ -280,11 +288,9 @@ section#work li
       h3
         opacity: 0
   &.openWork
-    a.closeBtn
-      opacity: 1
-      font-size: 16px
-    > a
-      display: inline-block
+    opacity: 1
+    font-size: 16px
+
     div.info
       display: block
   &.dias div.info, &.sheff div.info, &.ntrust div.info
