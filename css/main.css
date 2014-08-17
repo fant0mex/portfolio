@@ -397,25 +397,22 @@ section#work li.dias div.info .before, section#work li.sheff div.info .before, s
   opacity: 0;
   width: 571px;
   height: 637px;
-  background: url("../img/work/dias/dias_screen.png") no-repeat;
+  background: url("../img/work/dias/imac_dias.png") no-repeat;
   position: absolute;
   left: 45%;
   margin-left: -245px;
   top: 50%;
   margin-top: -350px;
-  -webkit-transform: scale(0.97);
-  -moz-transform: scale(0.97);
-  -ms-transform: scale(0.97);
-  -o-transform: scale(0.97);
-  transform: scale(0.97);
+  transform: scale(0.5);
   transition: all 3s ease-out;
+  background: url("../img/work/dias/imac_sheffield.png") no-repeat;
 }
-/* line 328, ../_sass/main.sass */
+/* line 326, ../_sass/main.sass */
 section#work li.dias div.info ul, section#work li.dias div.info .desc, section#work li.sheff div.info ul, section#work li.sheff div.info .desc, section#work li.ntrust div.info ul, section#work li.ntrust div.info .desc {
   opacity: 0;
   transition: all 0.9s ease-out;
 }
-/* line 331, ../_sass/main.sass */
+/* line 329, ../_sass/main.sass */
 section#work li.dias div.info ul, section#work li.sheff div.info ul, section#work li.ntrust div.info ul {
   -webkit-transform: translateX(5px);
   -moz-transform: translateX(5px);
@@ -423,7 +420,7 @@ section#work li.dias div.info ul, section#work li.sheff div.info ul, section#wor
   -o-transform: translateX(5px);
   transform: translateX(5px);
 }
-/* line 337, ../_sass/main.sass */
+/* line 335, ../_sass/main.sass */
 section#work li.dias div.info .desc, section#work li.sheff div.info .desc, section#work li.ntrust div.info .desc {
   -webkit-transform: translateX(-5px);
   -moz-transform: translateX(-5px);
@@ -431,7 +428,7 @@ section#work li.dias div.info .desc, section#work li.sheff div.info .desc, secti
   -o-transform: translateX(-5px);
   transform: translateX(-5px);
 }
-/* line 343, ../_sass/main.sass */
+/* line 341, ../_sass/main.sass */
 section#work li.dias div.info ul.reveal, section#work li.dias div.info .desc.reveal, section#work li.sheff div.info ul.reveal, section#work li.sheff div.info .desc.reveal, section#work li.ntrust div.info ul.reveal, section#work li.ntrust div.info .desc.reveal {
   opacity: 1;
   -webkit-transform: translateX(0);
@@ -440,7 +437,7 @@ section#work li.dias div.info ul.reveal, section#work li.dias div.info .desc.rev
   -o-transform: translateX(0);
   transform: translateX(0);
 }
-/* line 350, ../_sass/main.sass */
+/* line 348, ../_sass/main.sass */
 section#work li.dias div.info .before.reveal, section#work li.sheff div.info .before.reveal, section#work li.ntrust div.info .before.reveal {
   opacity: 1;
   -webkit-transform: scale(1);
@@ -451,7 +448,7 @@ section#work li.dias div.info .before.reveal, section#work li.sheff div.info .be
 }
 
 /* CASE STUDY */
-/* line 363, ../_sass/main.sass */
+/* line 361, ../_sass/main.sass */
 section#work li.dias div.info ul, section#work li.sheff div.info ul, section#work li.ntrust div.info ul {
   width: 200px;
   position: absolute;
@@ -459,12 +456,12 @@ section#work li.dias div.info ul, section#work li.sheff div.info ul, section#wor
   margin-top: -150px;
   right: 0;
 }
-/* line 369, ../_sass/main.sass */
+/* line 367, ../_sass/main.sass */
 section#work li.dias div.info ul li, section#work li.sheff div.info ul li, section#work li.ntrust div.info ul li {
   display: block;
   margin-bottom: 20px;
 }
-/* line 372, ../_sass/main.sass */
+/* line 370, ../_sass/main.sass */
 section#work li.dias div.info .desc, section#work li.sheff div.info .desc, section#work li.ntrust div.info .desc {
   width: 380px;
   position: absolute;
@@ -475,12 +472,12 @@ section#work li.dias div.info .desc, section#work li.sheff div.info .desc, secti
   font-weight: 300;
   letter-spacing: 1px;
 }
-/* line 381, ../_sass/main.sass */
+/* line 379, ../_sass/main.sass */
 section#work li.dias div.info .before, section#work li.sheff div.info .before, section#work li.ntrust div.info .before {
   opacity: 0;
   width: 571px;
   height: 637px;
-  background: url("../img/work/dias/dias_screen.png") no-repeat;
+  background: url("../img/work/dias/imac_dias.png") no-repeat;
   position: absolute;
   left: 50%;
   margin-left: -245px;
@@ -492,6 +489,7 @@ section#work li.dias div.info .before, section#work li.sheff div.info .before, s
   -o-transform: scale(0.97);
   transform: scale(0.4);
   transition: all 0.4s ease-out;
+  background: url("../img/work/sheff/imac_sheffield.png") no-repeat;
 }
 /* line 397, ../_sass/main.sass */
 section#work li.dias div.info ul, section#work li.dias div.info .desc, section#work li.sheff div.info ul, section#work li.sheff div.info .desc, section#work li.ntrust div.info ul, section#work li.ntrust div.info .desc {

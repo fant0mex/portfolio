@@ -40,29 +40,26 @@ $('.parallax').parallax({
   speed : -0.5
 });
 
-
-
 $('a[href^="#"]').click(function() {
  $('#work').velocity('scroll', { duration: 600 });
 });
 
-
-
 function closeWork(){
-  var $dias = $('#work li');
-  $dias.removeClass('openWork loading');
+  $('.info').children().removeClass('reveal');
   $('.closeBtn').css("display","none");
-  $('html').removeClass('stopScroll');
+  setTimeout(function(){
+    $('.slate').removeClass('openWork loading');
+    $('html').removeClass('stopScroll');
+  }, 370);
   setTimeout(function() {
-    $dias.velocity({ height: "290px" }, { queue: false });
-    $dias.velocity("scroll", { duration: 600, offset: -0}, { queue: false });
+    $('.slate').velocity({ height: "290px" }, { queue: false });
+    $('#work').velocity("scroll", { duration: 600, offset: -0}, { queue: false });
   }, 370);
 }
 
 function openWork(){
   var $dias = $(this);
   $dias.hasClass('openWork')|| $dias.velocity("scroll", { duration:800, offset:-290, easing:"easeInOutQuint"});
-  $('.reveal li').css("height","");
   setTimeout(function() {
     $dias.velocity("scroll", { duration: 600, offset: -0}, { queue: false });
     $dias.velocity({ height: "779px" }, { queue: false });
@@ -79,7 +76,7 @@ function openWork(){
 }
 
 
-$('#work li').on('click', openWork);
+$('.slate').on('click', openWork);
 
 $('body').on('click','.closeBtn', function(e){
   e.preventDefault();
