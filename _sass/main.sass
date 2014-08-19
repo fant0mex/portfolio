@@ -321,8 +321,64 @@ section#work li
       margin-top: -350px
       transform: scale(0.5)
       transition: all 3s ease-out
-      &.sheff div.info
-      background: url('../img/work/dias/imac_sheffield.png') no-repeat
+    ul, .desc
+      opacity: 0
+      transition: all .9s ease-out
+    ul
+      -webkit-transform: translateX(5px)
+      -moz-transform: translateX(5px)
+      -ms-transform: translateX(5px)
+      -o-transform: translateX(5px)
+      transform: translateX(5px)
+    .desc
+      -webkit-transform: translateX(-5px)
+      -moz-transform: translateX(-5px)
+      -ms-transform: translateX(-5px)
+      -o-transform: translateX(-5px)
+      transform: translateX(-5px)
+    ul.reveal, .desc.reveal
+      opacity: 1
+      -webkit-transform: translateX(0)
+      -moz-transform: translateX(0)
+      -ms-transform: translateX(0)
+      -o-transform: translateX(0)
+      transform: translateX(0)
+    .before.reveal
+      opacity: 1
+      -webkit-transform: scale(1)
+      -moz-transform: scale(1)
+      -ms-transform: scale(1)
+      -o-transform: scale(1)
+      transform: scale(1)
+
+  &.sheff div.info, &.ntrust div.info
+    ul
+      width: 200px
+      position: absolute
+      top: 50%
+      margin-top: -150px
+      right: 0
+      li
+        display: block
+        margin-bottom: 20px
+    .desc
+      width: 380px
+      position: absolute
+      left: 0
+      top: 50%
+      margin-top: -110px
+    .before
+      opacity: 0
+      width: 571px
+      height: 637px
+      background: url('../img/work/sheff/imac_sheffield.png') no-repeat
+      position: absolute
+      left: 45%
+      margin-left: -245px
+      top: 50%
+      margin-top: -350px
+      transform: scale(0.5)
+      transition: all 3s ease-out
     ul, .desc
       opacity: 0
       transition: all .9s ease-out
@@ -392,8 +448,6 @@ section#work li
       -o-transform: scale(0.97)
       transform: scale(0.4)
       transition: all .4s ease-out
-      &.sheff div.info
-      background: url('../img/work/sheff/imac_sheffield.png') no-repeat
     ul, .desc
       opacity: 0
       transition: all .9s ease-out
@@ -424,67 +478,71 @@ section#work li
       -o-transform: scale(1)
       transform: scale(0.7)
 
-  // &.ntrust div.info
-  //   li
-  //     margin-right: 125px
-  //     &:nth-child(2)
-  //       margin-right: 375px
-  //     &:last-of-type
-  //       margin-right: 0
-  //   .desc
-  //     width: 420px
-  //     right: 0
-  //     position: absolute
-  //     bottom: 0
-  //   li
-  //     opacity: 0
-  //     transition: all .9s ease-out
-  //     -webkit-transform: translateY(-5px)
-  //     -moz-transform: translateY(-5px)
-  //     -ms-transform: translateY(-5px)
-  //     -o-transform: translateY(-5px)
-  //     transform: translateY(-5px)
-  //   .desc
-  //     opacity: 0
-  //     transition: all .9s ease-out
-  //     -webkit-transform: translateY(5px)
-  //     -moz-transform: translateY(5px)
-  //     -ms-transform: translateY(5px)
-  //     -o-transform: translateY(5px)
-  //     transform: translateY(5px)
-  //   li.reveal, .desc.reveal
-  //     opacity: 1
-  //     -webkit-transform: translateY(0)
-  //     -moz-transform: translateY(0)
-  //     -ms-transform: translateY(0)
-  //     -o-transform: translateY(0)
-  //     transform: translateY(0)
-  //   .before
-  //     pointer-events: none
-  //     opacity: 0
-  //     transition: all .6s ease-out
-  //     position: absolute
-  //     z-index: 0
-  //     left: 43%
-  //     top: 50%
-  //     margin-left: -498px
-  //     margin-top: -227px
-  //     display: inline-block
-  //     width: 995px
-  //     height: 504px
-  //     background: url('../img/work/dias/dias_screen.png') no-repeat
-  //     -webkit-transform: scale(0.97)
-  //     -moz-transform: scale(0.97)
-  //     -ms-transform: scale(0.97)
-  //     -o-transform: scale(0.97)
-  //     transform: scale(0.97)
-  //     &.show
-  //       opacity: 1
-  //       -webkit-transform: scale(1)
-  //       -moz-transform: scale(1)
-  //       -ms-transform: scale(1)
-  //       -o-transform: scale(1)
-  //       transform: scale(1)
+  &.sheff div.info, &.ntrust div.info
+    ul
+      width: 200px
+      position: absolute
+      top: 50%
+      margin-top: -150px
+      right: 0
+      li
+        display: block
+        margin-bottom: 20px
+    .desc
+      width: 380px
+      position: absolute
+      left: 0
+      top: 50%
+      margin-top: -110px
+      font-size: 16px
+      font-weight: 300
+      letter-spacing: 1px
+    .before
+      opacity: 0
+      width: 571px
+      height: 637px
+      background: url('../img/work/sheff/imac_sheffield.png') no-repeat
+      position: absolute
+      left: 50%
+      margin-left: -245px
+      top: 50%
+      margin-top: -350px
+      -webkit-transform: scale(0.4)
+      -moz-transform: scale(0.97)
+      -ms-transform: scale(0.97)
+      -o-transform: scale(0.97)
+      transform: scale(0.4)
+      transition: all .4s ease-out
+    ul, .desc
+      opacity: 0
+      transition: all .9s ease-out
+    ul
+      -webkit-transform: translateX(5px)
+      -moz-transform: translateX(5px)
+      -ms-transform: translateX(5px)
+      -o-transform: translateX(5px)
+      transform: translateX(5px)
+    .desc
+      -webkit-transform: translateX(-5px)
+      -moz-transform: translateX(-5px)
+      -ms-transform: translateX(-5px)
+      -o-transform: translateX(-5px)
+      transform: translateX(-5px)
+    ul.reveal, .desc.reveal
+      opacity: 1
+      -webkit-transform: translateX(0)
+      -moz-transform: translateX(0)
+      -ms-transform: translateX(0)
+      -o-transform: translateX(0)
+      transform: translateX(0)
+    .before.reveal
+      opacity: 1
+      -webkit-transform: scale(07)
+      -moz-transform: scale(1)
+      -ms-transform: scale(1)
+      -o-transform: scale(1)
+      transform: scale(0.7)
+
 
 /* Footer */
 

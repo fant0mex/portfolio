@@ -405,14 +405,13 @@ section#work li.dias div.info .before, section#work li.sheff div.info .before, s
   margin-top: -350px;
   transform: scale(0.5);
   transition: all 3s ease-out;
-  background: url("../img/work/dias/imac_sheffield.png") no-repeat;
 }
-/* line 326, ../_sass/main.sass */
+/* line 324, ../_sass/main.sass */
 section#work li.dias div.info ul, section#work li.dias div.info .desc, section#work li.sheff div.info ul, section#work li.sheff div.info .desc, section#work li.ntrust div.info ul, section#work li.ntrust div.info .desc {
   opacity: 0;
   transition: all 0.9s ease-out;
 }
-/* line 329, ../_sass/main.sass */
+/* line 327, ../_sass/main.sass */
 section#work li.dias div.info ul, section#work li.sheff div.info ul, section#work li.ntrust div.info ul {
   -webkit-transform: translateX(5px);
   -moz-transform: translateX(5px);
@@ -420,7 +419,7 @@ section#work li.dias div.info ul, section#work li.sheff div.info ul, section#wor
   -o-transform: translateX(5px);
   transform: translateX(5px);
 }
-/* line 335, ../_sass/main.sass */
+/* line 333, ../_sass/main.sass */
 section#work li.dias div.info .desc, section#work li.sheff div.info .desc, section#work li.ntrust div.info .desc {
   -webkit-transform: translateX(-5px);
   -moz-transform: translateX(-5px);
@@ -428,7 +427,7 @@ section#work li.dias div.info .desc, section#work li.sheff div.info .desc, secti
   -o-transform: translateX(-5px);
   transform: translateX(-5px);
 }
-/* line 341, ../_sass/main.sass */
+/* line 339, ../_sass/main.sass */
 section#work li.dias div.info ul.reveal, section#work li.dias div.info .desc.reveal, section#work li.sheff div.info ul.reveal, section#work li.sheff div.info .desc.reveal, section#work li.ntrust div.info ul.reveal, section#work li.ntrust div.info .desc.reveal {
   opacity: 1;
   -webkit-transform: translateX(0);
@@ -437,8 +436,82 @@ section#work li.dias div.info ul.reveal, section#work li.dias div.info .desc.rev
   -o-transform: translateX(0);
   transform: translateX(0);
 }
-/* line 348, ../_sass/main.sass */
+/* line 346, ../_sass/main.sass */
 section#work li.dias div.info .before.reveal, section#work li.sheff div.info .before.reveal, section#work li.ntrust div.info .before.reveal {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+/* line 355, ../_sass/main.sass */
+section#work li.sheff div.info ul, section#work li.ntrust div.info ul {
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  margin-top: -150px;
+  right: 0;
+}
+/* line 361, ../_sass/main.sass */
+section#work li.sheff div.info ul li, section#work li.ntrust div.info ul li {
+  display: block;
+  margin-bottom: 20px;
+}
+/* line 364, ../_sass/main.sass */
+section#work li.sheff div.info .desc, section#work li.ntrust div.info .desc {
+  width: 380px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -110px;
+}
+/* line 370, ../_sass/main.sass */
+section#work li.sheff div.info .before, section#work li.ntrust div.info .before {
+  opacity: 0;
+  width: 571px;
+  height: 637px;
+  background: url("../img/work/sheff/imac_sheffield.png") no-repeat;
+  position: absolute;
+  left: 45%;
+  margin-left: -245px;
+  top: 50%;
+  margin-top: -350px;
+  transform: scale(0.5);
+  transition: all 3s ease-out;
+}
+/* line 382, ../_sass/main.sass */
+section#work li.sheff div.info ul, section#work li.sheff div.info .desc, section#work li.ntrust div.info ul, section#work li.ntrust div.info .desc {
+  opacity: 0;
+  transition: all 0.9s ease-out;
+}
+/* line 385, ../_sass/main.sass */
+section#work li.sheff div.info ul, section#work li.ntrust div.info ul {
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  -o-transform: translateX(5px);
+  transform: translateX(5px);
+}
+/* line 391, ../_sass/main.sass */
+section#work li.sheff div.info .desc, section#work li.ntrust div.info .desc {
+  -webkit-transform: translateX(-5px);
+  -moz-transform: translateX(-5px);
+  -ms-transform: translateX(-5px);
+  -o-transform: translateX(-5px);
+  transform: translateX(-5px);
+}
+/* line 397, ../_sass/main.sass */
+section#work li.sheff div.info ul.reveal, section#work li.sheff div.info .desc.reveal, section#work li.ntrust div.info ul.reveal, section#work li.ntrust div.info .desc.reveal {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+/* line 404, ../_sass/main.sass */
+section#work li.sheff div.info .before.reveal, section#work li.ntrust div.info .before.reveal {
   opacity: 1;
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
@@ -448,7 +521,7 @@ section#work li.dias div.info .before.reveal, section#work li.sheff div.info .be
 }
 
 /* CASE STUDY */
-/* line 361, ../_sass/main.sass */
+/* line 417, ../_sass/main.sass */
 section#work li.dias div.info ul, section#work li.sheff div.info ul, section#work li.ntrust div.info ul {
   width: 200px;
   position: absolute;
@@ -456,12 +529,12 @@ section#work li.dias div.info ul, section#work li.sheff div.info ul, section#wor
   margin-top: -150px;
   right: 0;
 }
-/* line 367, ../_sass/main.sass */
+/* line 423, ../_sass/main.sass */
 section#work li.dias div.info ul li, section#work li.sheff div.info ul li, section#work li.ntrust div.info ul li {
   display: block;
   margin-bottom: 20px;
 }
-/* line 370, ../_sass/main.sass */
+/* line 426, ../_sass/main.sass */
 section#work li.dias div.info .desc, section#work li.sheff div.info .desc, section#work li.ntrust div.info .desc {
   width: 380px;
   position: absolute;
@@ -472,7 +545,7 @@ section#work li.dias div.info .desc, section#work li.sheff div.info .desc, secti
   font-weight: 300;
   letter-spacing: 1px;
 }
-/* line 379, ../_sass/main.sass */
+/* line 435, ../_sass/main.sass */
 section#work li.dias div.info .before, section#work li.sheff div.info .before, section#work li.ntrust div.info .before {
   opacity: 0;
   width: 571px;
@@ -489,14 +562,13 @@ section#work li.dias div.info .before, section#work li.sheff div.info .before, s
   -o-transform: scale(0.97);
   transform: scale(0.4);
   transition: all 0.4s ease-out;
-  background: url("../img/work/sheff/imac_sheffield.png") no-repeat;
 }
-/* line 397, ../_sass/main.sass */
+/* line 451, ../_sass/main.sass */
 section#work li.dias div.info ul, section#work li.dias div.info .desc, section#work li.sheff div.info ul, section#work li.sheff div.info .desc, section#work li.ntrust div.info ul, section#work li.ntrust div.info .desc {
   opacity: 0;
   transition: all 0.9s ease-out;
 }
-/* line 400, ../_sass/main.sass */
+/* line 454, ../_sass/main.sass */
 section#work li.dias div.info ul, section#work li.sheff div.info ul, section#work li.ntrust div.info ul {
   -webkit-transform: translateX(5px);
   -moz-transform: translateX(5px);
@@ -504,7 +576,7 @@ section#work li.dias div.info ul, section#work li.sheff div.info ul, section#wor
   -o-transform: translateX(5px);
   transform: translateX(5px);
 }
-/* line 406, ../_sass/main.sass */
+/* line 460, ../_sass/main.sass */
 section#work li.dias div.info .desc, section#work li.sheff div.info .desc, section#work li.ntrust div.info .desc {
   -webkit-transform: translateX(-5px);
   -moz-transform: translateX(-5px);
@@ -512,7 +584,7 @@ section#work li.dias div.info .desc, section#work li.sheff div.info .desc, secti
   -o-transform: translateX(-5px);
   transform: translateX(-5px);
 }
-/* line 412, ../_sass/main.sass */
+/* line 466, ../_sass/main.sass */
 section#work li.dias div.info ul.reveal, section#work li.dias div.info .desc.reveal, section#work li.sheff div.info ul.reveal, section#work li.sheff div.info .desc.reveal, section#work li.ntrust div.info ul.reveal, section#work li.ntrust div.info .desc.reveal {
   opacity: 1;
   -webkit-transform: translateX(0);
@@ -521,8 +593,89 @@ section#work li.dias div.info ul.reveal, section#work li.dias div.info .desc.rev
   -o-transform: translateX(0);
   transform: translateX(0);
 }
-/* line 419, ../_sass/main.sass */
+/* line 473, ../_sass/main.sass */
 section#work li.dias div.info .before.reveal, section#work li.sheff div.info .before.reveal, section#work li.ntrust div.info .before.reveal {
+  opacity: 1;
+  -webkit-transform: scale(7);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(0.7);
+}
+/* line 482, ../_sass/main.sass */
+section#work li.sheff div.info ul, section#work li.ntrust div.info ul {
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  margin-top: -150px;
+  right: 0;
+}
+/* line 488, ../_sass/main.sass */
+section#work li.sheff div.info ul li, section#work li.ntrust div.info ul li {
+  display: block;
+  margin-bottom: 20px;
+}
+/* line 491, ../_sass/main.sass */
+section#work li.sheff div.info .desc, section#work li.ntrust div.info .desc {
+  width: 380px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -110px;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+/* line 500, ../_sass/main.sass */
+section#work li.sheff div.info .before, section#work li.ntrust div.info .before {
+  opacity: 0;
+  width: 571px;
+  height: 637px;
+  background: url("../img/work/sheff/imac_sheffield.png") no-repeat;
+  position: absolute;
+  left: 50%;
+  margin-left: -245px;
+  top: 50%;
+  margin-top: -350px;
+  -webkit-transform: scale(0.4);
+  -moz-transform: scale(0.97);
+  -ms-transform: scale(0.97);
+  -o-transform: scale(0.97);
+  transform: scale(0.4);
+  transition: all 0.4s ease-out;
+}
+/* line 516, ../_sass/main.sass */
+section#work li.sheff div.info ul, section#work li.sheff div.info .desc, section#work li.ntrust div.info ul, section#work li.ntrust div.info .desc {
+  opacity: 0;
+  transition: all 0.9s ease-out;
+}
+/* line 519, ../_sass/main.sass */
+section#work li.sheff div.info ul, section#work li.ntrust div.info ul {
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  -o-transform: translateX(5px);
+  transform: translateX(5px);
+}
+/* line 525, ../_sass/main.sass */
+section#work li.sheff div.info .desc, section#work li.ntrust div.info .desc {
+  -webkit-transform: translateX(-5px);
+  -moz-transform: translateX(-5px);
+  -ms-transform: translateX(-5px);
+  -o-transform: translateX(-5px);
+  transform: translateX(-5px);
+}
+/* line 531, ../_sass/main.sass */
+section#work li.sheff div.info ul.reveal, section#work li.sheff div.info .desc.reveal, section#work li.ntrust div.info ul.reveal, section#work li.ntrust div.info .desc.reveal {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+/* line 538, ../_sass/main.sass */
+section#work li.sheff div.info .before.reveal, section#work li.ntrust div.info .before.reveal {
   opacity: 1;
   -webkit-transform: scale(7);
   -moz-transform: scale(1);
@@ -532,43 +685,43 @@ section#work li.dias div.info .before.reveal, section#work li.sheff div.info .be
 }
 
 /* Footer */
-/* line 491, ../_sass/main.sass */
+/* line 549, ../_sass/main.sass */
 .interact {
   background: black;
   color: white;
   height: 190px;
   z-index: 1;
 }
-/* line 496, ../_sass/main.sass */
+/* line 554, ../_sass/main.sass */
 .interact h3 {
   text-align: center;
   padding: 10px 0;
 }
-/* line 499, ../_sass/main.sass */
+/* line 557, ../_sass/main.sass */
 .interact .mail {
   text-align: center;
 }
-/* line 501, ../_sass/main.sass */
+/* line 559, ../_sass/main.sass */
 .interact .mail a {
   color: white;
 }
-/* line 503, ../_sass/main.sass */
+/* line 561, ../_sass/main.sass */
 .interact .mail .fa {
   padding: 0 10px;
 }
-/* line 505, ../_sass/main.sass */
+/* line 563, ../_sass/main.sass */
 .interact .icons {
   text-align: center;
 }
-/* line 507, ../_sass/main.sass */
+/* line 565, ../_sass/main.sass */
 .interact .icons p {
   display: inline-block;
 }
-/* line 509, ../_sass/main.sass */
+/* line 567, ../_sass/main.sass */
 .interact .icons a {
   color: white;
 }
-/* line 511, ../_sass/main.sass */
+/* line 569, ../_sass/main.sass */
 .interact .icons .fa {
   padding: 20px 20px;
 }
