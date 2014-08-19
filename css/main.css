@@ -725,3 +725,19 @@ section#work li.sheff div.info .before.reveal, section#work li.ntrust div.info .
 .interact .icons .fa {
   padding: 20px 20px;
 }
+
+/*Profile */
+/* line 576, ../_sass/main.sass */
+.bio h3, .blogfull h3 {
+  font-size: 28px;
+  padding: 20px 0;
+}
+/* line 579, ../_sass/main.sass */
+.bio p, .blogfull p {
+  padding: 0 130px 20px 0;
+  line-height: 1.85;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/*Blog */
