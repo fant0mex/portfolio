@@ -9,8 +9,11 @@ permalink: /profile/
     <div class="col-sm-7">
       <div class="bio">
         <h3>About</h3>
-        <p>Aenean non sollicitudin lectus. Nulla viverra libero sit amet orci consequat lacinia. Vivamus facilisis volutpat ultrices. Aliquam nec nisl urna. Curabitur blandit justo nec mi suscipit, congue dapibus lorem accumsan. Cras et pretium nisi. Donec nec sapien et eros fringilla luctus ut vel enim. Aliquam consequat eros vel nisl sagittis, non aliquet leo malesuada. Vivamus rhoncus facilisis enim. Integer id quam quis libero facilisis convallis.</p>
-        <p>Aliquam vel imperdiet mi. Ut ut pretium leo, ut varius dolor. Ut vitae faucibus metus, ut congue enim. Fusce ornare metus tempor, posuere urna at, mattis ipsum. Phasellus magna mauris, vehicula nec sodales nec, blandit in nibh. Nulla augue libero, mattis ut dignissim bibendum, gravida ac nisi. Morbi eu dictum nulla. Praesent non euismod orci.</p>
+        <p>Hi, I'm Joe, a Front-End Developer from London. After working in video for a number of years,
+          I've discovered a real passion for code and creating dynamic digital experiences.</p>
+        <p>After completing a Front-End course with the wonderful people at <a href="https://www.steer.me/courses">Steer</a>,
+          I undertook an internship with <a href="http://www.diascreative.com">DIAS_</a>, a digital agency.</p>
+        <p>I'm currently looking for further internship opportunities or junior positions, so feel free to get in touch!</p>
       </div>
     </div>
     <div class="col-sm-5">
