@@ -45,7 +45,9 @@ $('a[href^="#"]').click(function() {
 });
 
 function closeWork(){
-  $('.info').children().removeClass('reveal');
+  $('.info').find('p').removeClass('reveal');
+  $('.info').find('.before').removeClass('reveal');
+  $('.info').find('ul').removeClass('reveal');
   $('.closeBtn').css("display","none");
   setTimeout(function(){
     $('.slate').removeClass('openWork loading');
@@ -70,7 +72,9 @@ function openWork(){
 
   }, 1250);
   setTimeout(function() {
-    $('.info').children().addClass('reveal');
+    $('.info').find('p').addClass('reveal');
+    $('.info').find('.before').addClass('reveal');
+    $('.info').find('ul').addClass('reveal');
     $('.closeBtn').css("display","inline-block");
   }, 1600);
 }
