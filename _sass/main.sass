@@ -5,6 +5,22 @@
 // Font Variables
 $roboto: 'Roboto', serif
 
+//Media Queries
+
+$break-small: 768px
+$break-med: 1024px
+$site-max-width: 1200px
+
+@mixin respond-to($media)
+  @if $media == screen-xs
+    @media only screen and (max-width: $break-small - 1)
+      @content
+  @if $media == not-xs
+    @media only screen and (min-width: $break-small)
+      @content
+  @if $media == not-sm
+    @media only screen and (min-width: $break-med)
+      @content
 
 /* General Styles */
 
@@ -47,11 +63,13 @@ nav
   li
     list-style: none
     float: left
-    margin: 0 20px
+    margin: 0 10px
     text-transform: uppercase
     font-weight: 700
     text-align: center
     letter-spacing: 2px
+    +respond-to(not-xs)
+      margin: 0 20px
     a
       color: #e0e0e0
 
@@ -285,7 +303,9 @@ section#work li
     .work-header
       h2
         font-size: 50px
-        margin-top: -40px
+        margin-top: 10px
+        +respond-to(not-xs)
+          margin-top: -40px
       h3
         opacity: 0
   &.openWork
@@ -296,19 +316,23 @@ section#work li
       display: block
   &.dias div.info, &.sheff div.info, &.ntrust div.info
     ul
-      margin-top: 60px
+      margin-top: 10px
+      +respond-to(not-xs)
+        margin-top: 60px
       li
         display: block
         margin-bottom: 20px
       a
-        margin-bottom: 30px
+        margin-bottom: 10px
     .desc
       font-size: 16px
       font-weight: 300
       letter-spacing: 1px
     .before
       opacity: 0
-      transform: scale(0.5)
+      transform: scale(0.3)
+      +respond-to(not-xs)
+        transform: scale(0.5)
       transition: all .3s ease-out
       img
         margin: -90px
@@ -336,7 +360,9 @@ section#work li
       transform: translateX(0)
     .before.reveal
       opacity: 1
-      transform: scale(0.7)
+      transform: scale(0.5)
+      +respond-to(not-xs)
+        transform: scale(0.7)
 
 //   &.sheff div.info, &.ntrust div.info
 //     ul

@@ -65,13 +65,13 @@ function openWork(){
   $dias.hasClass('openWork')|| $dias.velocity("scroll", { duration:800, offset:-290, easing:"easeInOutQuint"});
   setTimeout(function() {
     $dias.velocity("scroll", { duration: 600, offset: -0}, { queue: false });
-    if ($(window).width() > 720) {
+    if ($(window).width() > 768) {
       $dias.velocity({ height: "779px" }, { queue: false });
   } else {
-      $dias.velocity({ height: "1400px" }, { queue: false });
+      $dias.velocity({ height: "1300px" }, { queue: false });
   }
   }, 870);
-  if ($(window).width() > 720) {
+  if ($(window).width() > 768) {
     $('html').addClass('stopScroll');
   }
   setTimeout(function(e) {
