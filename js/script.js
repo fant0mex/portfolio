@@ -61,12 +61,19 @@ function closeWork(){
 
 function openWork(){
   var $dias = $(this);
+  var pos = $(this).position();
   $dias.hasClass('openWork')|| $dias.velocity("scroll", { duration:800, offset:-290, easing:"easeInOutQuint"});
   setTimeout(function() {
     $dias.velocity("scroll", { duration: 600, offset: -0}, { queue: false });
-    $dias.velocity({ height: "779px" }, { queue: false });
+    if ($(window).width() > 720) {
+      $dias.velocity({ height: "779px" }, { queue: false });
+  } else {
+      $dias.velocity({ height: "1400px" }, { queue: false });
+  }
   }, 870);
-  $('html').addClass('stopScroll');
+  if ($(window).width() > 720) {
+    $('html').addClass('stopScroll');
+  }
   setTimeout(function(e) {
     $dias.addClass('openWork loading');
 
@@ -75,7 +82,7 @@ function openWork(){
     $('.info').find('p').addClass('reveal');
     $('.info').find('.before').addClass('reveal');
     $('.info').find('ul').addClass('reveal');
-    $('.closeBtn').css("display","inline-block");
+    $('.closeBtn').css("display","inline-block").css("top", (pos.top +20) + "px");
   }, 1600);
 }
 

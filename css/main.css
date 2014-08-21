@@ -295,10 +295,9 @@ section#work li.ntrust .visual {
 /* OPEN */
 /* line 233, ../_sass/main.sass */
 a.closeBtn {
-  position: fixed;
+  position: absolute;
   z-index: 100;
-  top: 20px !important;
-  left: 20px;
+  right: 20px;
   height: 16px;
   padding-right: 22px;
   text-transform: uppercase;
@@ -307,7 +306,7 @@ a.closeBtn {
   color: white;
   display: none;
 }
-/* line 245, ../_sass/main.sass */
+/* line 244, ../_sass/main.sass */
 a.closeBtn::before {
   content: "";
   width: 16px;
@@ -322,7 +321,7 @@ a.closeBtn::before {
   -ms-transform: rotateZ(45deg);
   transform: rotateZ(45deg);
 }
-/* line 258, ../_sass/main.sass */
+/* line 257, ../_sass/main.sass */
 a.closeBtn::after {
   content: "";
   width: 16px;
@@ -343,67 +342,71 @@ a.closeBtn::after {
   transform: rotateZ(-45deg);
 }
 
-/* line 278, ../_sass/main.sass */
+/* line 277, ../_sass/main.sass */
 section#work li.loading {
   cursor: default;
   overflow: hidden;
   position: relative;
   z-index: 35;
 }
-/* line 283, ../_sass/main.sass */
+/* line 282, ../_sass/main.sass */
 section#work li.loading .visual {
   opacity: 0.35;
   background-size: cover;
 }
-/* line 287, ../_sass/main.sass */
+/* line 286, ../_sass/main.sass */
 section#work li.loading .work-header h2 {
   font-size: 50px;
   margin-top: -40px;
 }
-/* line 290, ../_sass/main.sass */
+/* line 289, ../_sass/main.sass */
 section#work li.loading .work-header h3 {
   opacity: 0;
 }
-/* line 292, ../_sass/main.sass */
+/* line 291, ../_sass/main.sass */
 section#work li.openWork {
   opacity: 1;
   font-size: 16px;
 }
-/* line 296, ../_sass/main.sass */
+/* line 295, ../_sass/main.sass */
 section#work li.openWork div.info {
   display: block;
 }
-/* line 299, ../_sass/main.sass */
+/* line 298, ../_sass/main.sass */
 section#work li.dias div.info ul, section#work li.sheff div.info ul, section#work li.ntrust div.info ul {
   margin-top: 60px;
 }
-/* line 301, ../_sass/main.sass */
+/* line 300, ../_sass/main.sass */
 section#work li.dias div.info ul li, section#work li.sheff div.info ul li, section#work li.ntrust div.info ul li {
   display: block;
   margin-bottom: 20px;
 }
-/* line 304, ../_sass/main.sass */
+/* line 303, ../_sass/main.sass */
+section#work li.dias div.info ul a, section#work li.sheff div.info ul a, section#work li.ntrust div.info ul a {
+  margin-bottom: 30px;
+}
+/* line 305, ../_sass/main.sass */
 section#work li.dias div.info .desc, section#work li.sheff div.info .desc, section#work li.ntrust div.info .desc {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 1px;
 }
-/* line 308, ../_sass/main.sass */
+/* line 309, ../_sass/main.sass */
 section#work li.dias div.info .before, section#work li.sheff div.info .before, section#work li.ntrust div.info .before {
   opacity: 0;
   transform: scale(0.5);
   transition: all 0.3s ease-out;
 }
-/* line 312, ../_sass/main.sass */
+/* line 313, ../_sass/main.sass */
 section#work li.dias div.info .before img, section#work li.sheff div.info .before img, section#work li.ntrust div.info .before img {
   margin: -90px;
 }
-/* line 314, ../_sass/main.sass */
+/* line 315, ../_sass/main.sass */
 section#work li.dias div.info ul, section#work li.dias div.info .desc, section#work li.sheff div.info ul, section#work li.sheff div.info .desc, section#work li.ntrust div.info ul, section#work li.ntrust div.info .desc {
   opacity: 0;
   transition: all 0.9s ease-out;
 }
-/* line 317, ../_sass/main.sass */
+/* line 318, ../_sass/main.sass */
 section#work li.dias div.info ul, section#work li.sheff div.info ul, section#work li.ntrust div.info ul {
   -webkit-transform: translateX(5px);
   -moz-transform: translateX(5px);
@@ -411,7 +414,7 @@ section#work li.dias div.info ul, section#work li.sheff div.info ul, section#wor
   -o-transform: translateX(5px);
   transform: translateX(5px);
 }
-/* line 323, ../_sass/main.sass */
+/* line 324, ../_sass/main.sass */
 section#work li.dias div.info .desc, section#work li.sheff div.info .desc, section#work li.ntrust div.info .desc {
   -webkit-transform: translateX(-5px);
   -moz-transform: translateX(-5px);
@@ -419,7 +422,7 @@ section#work li.dias div.info .desc, section#work li.sheff div.info .desc, secti
   -o-transform: translateX(-5px);
   transform: translateX(-5px);
 }
-/* line 329, ../_sass/main.sass */
+/* line 330, ../_sass/main.sass */
 section#work li.dias div.info ul.reveal, section#work li.dias div.info .desc.reveal, section#work li.sheff div.info ul.reveal, section#work li.sheff div.info .desc.reveal, section#work li.ntrust div.info ul.reveal, section#work li.ntrust div.info .desc.reveal {
   opacity: 1;
   -webkit-transform: translateX(0);
@@ -428,65 +431,65 @@ section#work li.dias div.info ul.reveal, section#work li.dias div.info .desc.rev
   -o-transform: translateX(0);
   transform: translateX(0);
 }
-/* line 336, ../_sass/main.sass */
+/* line 337, ../_sass/main.sass */
 section#work li.dias div.info .before.reveal, section#work li.sheff div.info .before.reveal, section#work li.ntrust div.info .before.reveal {
   opacity: 1;
   transform: scale(0.7);
 }
 
 /* Footer */
-/* line 535, ../_sass/main.sass */
+/* line 536, ../_sass/main.sass */
 .interact {
   background: black;
   color: white;
   height: 190px;
   z-index: 1;
 }
-/* line 540, ../_sass/main.sass */
+/* line 541, ../_sass/main.sass */
 .interact h3 {
   text-align: center;
   padding: 10px 0;
 }
-/* line 543, ../_sass/main.sass */
+/* line 544, ../_sass/main.sass */
 .interact .mail {
   text-align: center;
 }
-/* line 545, ../_sass/main.sass */
+/* line 546, ../_sass/main.sass */
 .interact .mail a {
   color: white;
 }
-/* line 547, ../_sass/main.sass */
+/* line 548, ../_sass/main.sass */
 .interact .mail .fa {
   padding: 0 10px;
 }
-/* line 549, ../_sass/main.sass */
+/* line 550, ../_sass/main.sass */
 .interact .icons {
   text-align: center;
 }
-/* line 551, ../_sass/main.sass */
+/* line 552, ../_sass/main.sass */
 .interact .icons p {
   display: inline-block;
 }
-/* line 553, ../_sass/main.sass */
+/* line 554, ../_sass/main.sass */
 .interact .icons a {
   color: white;
 }
-/* line 555, ../_sass/main.sass */
+/* line 556, ../_sass/main.sass */
 .interact .icons .fa {
   padding: 20px 20px;
 }
 
 /*Profile */
-/* line 562, ../_sass/main.sass */
+/* line 563, ../_sass/main.sass */
 .bio body, .blogfull body {
   background-color: #eeeeee;
 }
-/* line 564, ../_sass/main.sass */
+/* line 565, ../_sass/main.sass */
 .bio h3, .blogfull h3 {
   font-size: 28px;
   padding: 20px 0;
 }
-/* line 567, ../_sass/main.sass */
+/* line 568, ../_sass/main.sass */
 .bio p, .blogfull p {
   padding: 0 130px 20px 0;
   line-height: 1.85;
