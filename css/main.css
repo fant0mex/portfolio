@@ -467,59 +467,65 @@ section#work li.dias div.info .before.reveal, section#work li.sheff div.info .be
   }
 }
 
+/* line 367, ../_sass/main.sass */
+iframe {
+  margin-left: -120px;
+  margin-top: 20px;
+}
+
 /* Footer */
-/* line 562, ../_sass/main.sass */
+/* line 374, ../_sass/main.sass */
 .interact {
   background: black;
   color: white;
   height: 190px;
   z-index: 1;
 }
-/* line 567, ../_sass/main.sass */
+/* line 379, ../_sass/main.sass */
 .interact h3 {
   text-align: center;
   padding: 10px 0;
 }
-/* line 570, ../_sass/main.sass */
+/* line 382, ../_sass/main.sass */
 .interact .mail {
   text-align: center;
 }
-/* line 572, ../_sass/main.sass */
+/* line 384, ../_sass/main.sass */
 .interact .mail a {
   color: white;
 }
-/* line 574, ../_sass/main.sass */
+/* line 386, ../_sass/main.sass */
 .interact .mail .fa {
   padding: 0 10px;
 }
-/* line 576, ../_sass/main.sass */
+/* line 388, ../_sass/main.sass */
 .interact .icons {
   text-align: center;
 }
-/* line 578, ../_sass/main.sass */
+/* line 390, ../_sass/main.sass */
 .interact .icons p {
   display: inline-block;
 }
-/* line 580, ../_sass/main.sass */
+/* line 392, ../_sass/main.sass */
 .interact .icons a {
   color: white;
 }
-/* line 582, ../_sass/main.sass */
+/* line 394, ../_sass/main.sass */
 .interact .icons .fa {
   padding: 20px 20px;
 }
 
 /*Profile */
-/* line 589, ../_sass/main.sass */
+/* line 401, ../_sass/main.sass */
 .bio body, .blogfull body {
   background-color: #eeeeee;
 }
-/* line 591, ../_sass/main.sass */
+/* line 403, ../_sass/main.sass */
 .bio h3, .blogfull h3 {
   font-size: 28px;
   padding: 20px 0;
 }
-/* line 594, ../_sass/main.sass */
+/* line 406, ../_sass/main.sass */
 .bio p, .blogfull p {
   padding: 0 130px 20px 0;
   line-height: 1.85;
