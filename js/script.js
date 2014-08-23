@@ -62,13 +62,14 @@ function closeWork(){
 function openWork(){
   var $dias = $(this);
   var pos = $(this).position();
+  var w = $( window ).height();
   $dias.hasClass('openWork')|| $dias.velocity("scroll", { duration:800, offset:-290, easing:"easeInOutQuint"});
   setTimeout(function() {
     $dias.velocity("scroll", { duration: 600, offset: -0}, { queue: false });
     if ($(window).width() > 768) {
-      $dias.velocity({ height: "779px" }, { queue: false });
+      $dias.velocity({ height: w }, { queue: false });
   } else {
-      $dias.velocity({ height: "1300px" }, { queue: false });
+      $dias.velocity({ height: "1200px" }, { queue: false });
   }
   }, 870);
   if ($(window).width() > 768) {
