@@ -244,6 +244,8 @@ section#work
         font-size: 20px
         line-height: 1.55
         margin-top: 70px
+        +respond-to(not-xs)
+          padding-right: 30px
     &.dias .visual
       background: url('../img/work/dias/dias_header.jpg') center center no-repeat
       background-size: cover
@@ -371,6 +373,7 @@ section#work li
     ul, .desc
       opacity: 0
       transition: all .9s ease-out
+      margin-left: 30px
     ul
       -webkit-transform: translateX(5px)
       -moz-transform: translateX(5px)
@@ -405,11 +408,11 @@ section#work li
         transform: scale(0.7)
 
 iframe
-  margin-left: -190px
+  margin-left: -170px
   margin-top: -40px
   +respond-to(not-xs)
-    margin-left: -120px
     margin-top: 20px
+    margin-left: -100px
 
 
 /* Footer */

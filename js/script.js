@@ -69,7 +69,7 @@ function openWork(){
     if ($(window).width() > 768) {
       $dias.velocity({ height: w }, { queue: false });
   } else {
-      $dias.velocity({ height: "1200px" }, { queue: false });
+      $dias.velocity({ height: "1240px" }, { queue: false });
   }
   }, 870);
   if ($(window).width() > 768) {
