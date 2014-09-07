@@ -9,7 +9,7 @@ permalink: /profile/
     <div class="col-sm-7">
       <div class="bio">
         <h3>About</h3>
-        <p>Hi, I'm Joe, a Front-End Developer from London. After working in video for a number of years,
+        <p>Hi, I'm Joe, a Developer from London. After working in video for a number of years,
           I've discovered a real passion for code and creating dynamic digital experiences.</p>
         <p>After completing a Front-End course with the wonderful people at <a href="https://www.steer.me/courses">Steer</a>,
           I undertook an internship with <a href="http://www.diascreative.com">DIAS_</a>, a digital agency.</p>
