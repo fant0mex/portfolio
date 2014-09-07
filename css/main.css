@@ -627,5 +627,9 @@ iframe {
     padding: 0 130px 20px 0;
   }
 }
+/* line 468, ../_sass/main.sass */
+.bio p:last-child, .blogfull p:last-child {
+  margin-bottom: 24px;
+}
 
 /*Blog */
