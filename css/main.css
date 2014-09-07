@@ -103,7 +103,7 @@ a.site-title:hover {
 .header-sub {
   color: white;
   text-align: center;
-  background-image: url("img/chisels.jpg") !important;
+  background-image: url("../img/chisels.jpg") !important;
   background-repeat: no-repeat;
   background-position: 50% top;
   background-size: cover;
@@ -111,7 +111,7 @@ a.site-title:hover {
 }
 /* line 101, ../_sass/main.sass */
 .header-sub.profile {
-  background-image: url("img/profile.jpg") !important;
+  background-image: url("../img/profile.jpg") !important;
   background-position: 50% 50%;
 }
 /* line 104, ../_sass/main.sass */
