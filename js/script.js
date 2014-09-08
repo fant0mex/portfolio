@@ -43,9 +43,12 @@ $('.parallax').parallax({
   speed : -0.5
 });
 
-$('a[href^="#"]').click(function() {
- $('#work').velocity('scroll', { duration: 600 });
+$window = $(window);
+if( $window.width() > 800){
+  $('a[href^="#"]').click(function() {
+  $('#work').velocity('scroll', { duration: 600 });
 });
+}
 
 function closeWork(){
   $('.info').find('p').removeClass('reveal');
