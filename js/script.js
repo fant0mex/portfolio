@@ -1,6 +1,6 @@
 (function($) {
   $.fn.parallax = function(options) {
-
+    document.addEventListener("touchstart", function(){}, true);
     var windowHeight = $(window).height();
 
     // Establish default settings
@@ -28,21 +28,6 @@
 
         var yBgPosition = Math.round((offset - scrollTop) * settings.speed);
 
-        // touch event check stolen from Modernizr
-  var touchSupported = (('ontouchstart' in window) ||
-              window.DocumentTouch && document instanceof DocumentTouch);
-
-  // if touch events are supported, tie our animation to the position to these events as well
-  if (touchSupported) {
-
-    $(window)
-      .bind('touchmove', function(e) {
-        var val = e.currentTarget.scrollY;
-        parallax(val);
-      });
-  }
-
-
                   // Apply the Y Background Position to Set the Parallax Effect
         $this.css('background-position', 'center ' + yBgPosition + 'px');
 
@@ -50,6 +35,7 @@
     });
   };
 }(jQuery));
+
 
 $('.parallax').parallax({
   speed : -0.5
