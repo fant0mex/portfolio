@@ -607,7 +607,7 @@ iframe {
 /*Profile */
 /* line 455, ../_sass/main.sass */
 .bio, .blogfull {
-  padding: 30px 40px 30px 80px;
+  padding: 30px 20px 30px 80px;
 }
 /* line 457, ../_sass/main.sass */
 .bio body, .blogfull body {
@@ -628,7 +628,7 @@ iframe {
 @media only screen and (min-width: 768px) {
   /* line 462, ../_sass/main.sass */
   .bio p, .blogfull p {
-    padding: 0 130px 20px 0;
+    padding: 0 30px 20px 0;
   }
 }
 /* line 469, ../_sass/main.sass */
