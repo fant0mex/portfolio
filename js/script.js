@@ -36,7 +36,7 @@
         });
       }
     };
-    }(jQuery));
+}(jQuery));
 
 
 $('.parallax').parallax({
