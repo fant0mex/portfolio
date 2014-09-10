@@ -605,8 +605,9 @@ iframe {
 }
 
 /*Profile */
-/* line 456, ../_sass/main.sass */
-.bio body, .blogfull body {
+/* line 455, ../_sass/main.sass */
+.bio, .blogfull {
+  padding: 30px 120px;
   background-color: #eeeeee;
 }
 /* line 458, ../_sass/main.sass */
@@ -630,6 +631,12 @@ iframe {
 /* line 468, ../_sass/main.sass */
 .bio p:last-child, .blogfull p:last-child {
   margin-bottom: 24px;
+}
+
+/* line 472, ../_sass/main.sass */
+.profile-pic img {
+  width: 100%;
+  height: 100%;
 }
 
 /*Blog */
