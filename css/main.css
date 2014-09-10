@@ -651,16 +651,17 @@ iframe {
   .profile-pic img {
     width: 100%;
     height: 100%;
+    display: inline;
   }
 }
 
-/* line 480, ../_sass/main.sass */
+/* line 481, ../_sass/main.sass */
 .cv {
   padding-left: 80px;
   padding-bottom: 30px;
 }
 
-/* line 483, ../_sass/main.sass */
+/* line 484, ../_sass/main.sass */
 .btn {
   background-color: white;
   border-radius: 6px;
@@ -673,7 +674,7 @@ iframe {
   text-shadow: 0px 1px 0px white;
 }
 
-/* line 493, ../_sass/main.sass */
+/* line 494, ../_sass/main.sass */
 .special {
   padding: 0;
 }
