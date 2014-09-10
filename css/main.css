@@ -607,7 +607,7 @@ iframe {
 /*Profile */
 /* line 455, ../_sass/main.sass */
 .bio, .blogfull {
-  padding: 30px 120px;
+  padding: 30px 20px 30px 80px;
 }
 /* line 457, ../_sass/main.sass */
 .bio body, .blogfull body {
