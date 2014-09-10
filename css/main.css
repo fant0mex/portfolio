@@ -1,662 +1,78 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
-/* General Styles */
-/* line 27, ../_sass/main.sass */
-body {
-  font-family: "Roboto", serif;
-  background: white;
-  font-size: 14px;
-  color: #424242;
-}
-/* line 32, ../_sass/main.sass */
-body a:hover {
-  text-decoration: none;
-}
-/* line 34, ../_sass/main.sass */
-body ul {
-  margin-bottom: 0;
-  padding: 0;
-}
+/*
+Syntax error: Invalid CSS after "padding-left:": expected pseudoclass or pseudoelement, was "0"
+        on line 491 of /Users/Joe/Documents/portfolio/_sass/main.sass
 
-/* line 38, ../_sass/main.sass */
-a:-webkit-any-link {
-  cursor: auto;
-}
-
-/* line 41, ../_sass/main.sass */
-html.stopScroll, html.stopScroll body {
-  overflow: hidden;
-  position: relative;
-}
-
-/* Header Home */
-/* line 47, ../_sass/main.sass */
-nav {
-  position: absolute;
-  width: 100%;
-  height: 80px;
-  line-height: 80px;
-  z-index: 100;
-}
-
-/* line 54, ../_sass/main.sass */
-.menu {
-  width: 100%;
-  height: 80px;
-  line-height: 80px;
-  z-index: 10;
-  float: right;
-}
-/* line 60, ../_sass/main.sass */
-.menu ul {
-  height: 80px;
-  line-height: 80px;
-}
-/* line 63, ../_sass/main.sass */
-.menu li {
-  list-style: none;
-  float: left;
-  margin: 0 4px;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-align: center;
-  letter-spacing: 2px;
-}
-@media only screen and (min-width: 768px) {
-  /* line 63, ../_sass/main.sass */
-  .menu li {
-    margin: 0 20px;
-  }
-}
-/* line 73, ../_sass/main.sass */
-.menu li a {
-  color: white;
-}
-/* line 75, ../_sass/main.sass */
-.menu li a:hover {
-  opacity: 0.7;
-  transition: 0.5s;
-}
-
-/* line 79, ../_sass/main.sass */
-a.site-title {
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  height: 80px;
-  line-height: 80px;
-  font-size: 14px;
-  color: white;
-}
-/* line 87, ../_sass/main.sass */
-a.site-title:hover {
-  opacity: 0.7;
-  transition: 0.5s;
-}
-@media only screen and (min-width: 768px) {
-  /* line 79, ../_sass/main.sass */
-  a.site-title {
-    font-size: 18px;
-  }
-}
-
-/* line 93, ../_sass/main.sass */
-.header-sub {
-  color: white;
-  text-align: center;
-  background-image: url("../img/chisels.jpg") !important;
-  background: 50% 0 no-repeat;
-  height: 100%;
-  background-size: cover;
-  position: relative;
-}
-/* line 101, ../_sass/main.sass */
-.header-sub.profile {
-  background-image: url("../img/profile.jpg") !important;
-  background-position: 50% 50%;
-}
-/* line 104, ../_sass/main.sass */
-.header-sub.blog {
-  background-position: 50% 50%;
-}
-/* line 107, ../_sass/main.sass */
-.header-sub > div {
-  display: relative;
-  vertical-align: middle;
-  margin-top: 0;
-  margin-bottom: 0;
-  float: none;
-}
-
-/* line 114, ../_sass/main.sass */
-.hero-caption {
-  position: relative;
-  z-index: 20;
-  margin-top: 240px;
-}
-/* line 118, ../_sass/main.sass */
-.hero-caption h5 {
-  font-size: 14px;
-  letter-spacing: 6px;
-  font-weight: 300;
-  text-transform: uppercase;
-  margin: 0;
-  line-height: 60px;
-}
-/* line 125, ../_sass/main.sass */
-.hero-caption h1 {
-  margin: 0 0 20px;
-  font-size: 60px;
-  font-weight: 400;
-  letter-spacing: 2px;
-}
-/* line 130, ../_sass/main.sass */
-.hero-caption a {
-  color: white;
-  font-size: 20px;
-  padding: 90px 0 0;
-}
-
-/* WORK */
-/* line 137, ../_sass/main.sass */
-section#work {
-  position: relative;
-  z-index: 20;
-  overflow: hidden;
-  background: black;
-}
-/* line 142, ../_sass/main.sass */
-section#work > ul > li {
-  width: 100%;
-  position: relative;
-  height: 290px;
-  line-height: 290px;
-  cursor: pointer;
-  background: black;
-  text-align: center;
-}
-/* line 152, ../_sass/main.sass */
-section#work li div.work-header {
-  position: relative;
-  display: inline-block;
-  left: 0;
-  top: 0;
-  text-transform: uppercase;
-  color: white;
-  vertical-align: middle;
-  line-height: 1.2;
-  margin: 0 auto;
-  z-index: 40;
-}
-/* line 163, ../_sass/main.sass */
-section#work li div.work-header h2 {
-  font-size: 48px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  transition: all 0.3s ease;
-}
-/* line 168, ../_sass/main.sass */
-section#work li div.work-header h5 {
-  font-size: 14px;
-  letter-spacing: 6px;
-  font-weight: 300;
-  text-transform: uppercase;
-  margin: 0;
-  line-height: 60px;
-}
-/* line 175, ../_sass/main.sass */
-section#work li div.visual {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
-  transition: opacity 0.5s ease-in-out;
-}
-/* line 183, ../_sass/main.sass */
-section#work li:hover .visual {
-  opacity: 0.8;
-}
-/* line 185, ../_sass/main.sass */
-section#work li > a {
-  display: none;
-  height: auto;
-  width: auto;
-  position: absolute;
-  top: 4%;
-  color: white;
-  font-size: 18px;
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-/* line 196, ../_sass/main.sass */
-section#work li > a:last-child {
-  top: auto;
-  bottom: 6%;
-  margin-left: -60px;
-  left: 48%;
-}
-/* line 201, ../_sass/main.sass */
-section#work li > a:last-child::after {
-  content: "";
-  width: 0;
-  height: 0;
-  position: absolute;
-  left: 50%;
-  margin-left: -5px;
-  bottom: -20px;
-  border-left: 6px solid transparent;
-  border-right: 6px solid transparent;
-  border-top: 6px solid white;
-  transition: all 0.3s ease-out;
-}
-/* line 213, ../_sass/main.sass */
-section#work li > a:last-child:hover::after {
-  transform: translateY(3px);
-}
-/* line 215, ../_sass/main.sass */
-section#work li div.info {
-  position: relative;
-  margin: -80px auto;
-  height: 60vh;
-  text-align: left;
-  display: none;
-  line-height: 1;
-  color: white;
-  width: 80vw;
-  max-width: 1200px;
-}
-/* line 225, ../_sass/main.sass */
-section#work li div.info li {
-  display: inline-block;
-  text-transform: uppercase;
-}
-/* line 228, ../_sass/main.sass */
-section#work li div.info li h3 {
-  margin-bottom: 5px;
-  font-size: 28px;
-  letter-spacing: 4px;
-}
-/* line 232, ../_sass/main.sass */
-section#work li div.info li span {
-  font-weight: 300;
-  font-size: 18px;
-  letter-spacing: 2px;
-}
-/* line 236, ../_sass/main.sass */
-section#work li div.info a.out {
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 300;
-  color: white;
-}
-/* line 241, ../_sass/main.sass */
-section#work li div.info a.out.pointer {
-  pointer-events: none;
-}
-/* line 243, ../_sass/main.sass */
-section#work li div.info p {
-  font-size: 20px;
-  line-height: 1.55;
-  margin-top: 70px;
-}
-@media only screen and (min-width: 768px) {
-  /* line 243, ../_sass/main.sass */
-  section#work li div.info p {
-    padding-right: 30px;
-  }
-}
-/* line 249, ../_sass/main.sass */
-section#work li.dias .visual {
-  background: url("../img/work/dias/dias_header.jpg") center center no-repeat;
-  background-size: cover;
-}
-/* line 252, ../_sass/main.sass */
-section#work li.sheff .visual {
-  background: url("../img/work/sheff/cinema.png") center center no-repeat;
-  background-size: cover;
-}
-/* line 255, ../_sass/main.sass */
-section#work li.ntrust .visual {
-  background: url("../img/work/nat_trust/bridge.jpg") center center no-repeat;
-  background-size: cover;
-}
-
-/* OPEN */
-/* line 263, ../_sass/main.sass */
-a.closeBtn {
-  position: absolute;
-  z-index: 100;
-  right: 20px;
-  height: 16px;
-  padding-right: 22px;
-  text-transform: uppercase;
-  line-height: 10px;
-  font-size: 16px;
-  color: white;
-  display: none;
-}
-/* line 274, ../_sass/main.sass */
-a.closeBtn:hover {
-  opacity: 0.7;
-  transition: 0.5s;
-}
-/* line 277, ../_sass/main.sass */
-a.closeBtn::before {
-  content: "";
-  width: 16px;
-  height: 3px;
-  background-color: white;
-  position: absolute;
-  top: 5px;
-  right: 0;
-  -webkit-transform: rotateZ(45deg);
-  -moz-transform: rotateZ(45deg);
-  -o-transform: rotateZ(45deg);
-  -ms-transform: rotateZ(45deg);
-  transform: rotateZ(45deg);
-}
-/* line 290, ../_sass/main.sass */
-a.closeBtn::after {
-  content: "";
-  width: 16px;
-  height: 3px;
-  background-color: white;
-  position: absolute;
-  top: 5px;
-  right: 0;
-  -webkit-transform: rotateZ(45deg);
-  -moz-transform: rotateZ(45deg);
-  -o-transform: rotateZ(45deg);
-  -ms-transform: rotateZ(45deg);
-  transform: rotateZ(45deg);
-  -webkit-transform: rotateZ(-45deg);
-  -moz-transform: rotateZ(-45deg);
-  -o-transform: rotateZ(-45deg);
-  -ms-transform: rotateZ(-45deg);
-  transform: rotateZ(-45deg);
-}
-
-/* line 310, ../_sass/main.sass */
-section#work li.loading {
-  cursor: default;
-  overflow: hidden;
-  position: relative;
-  z-index: 35;
-}
-/* line 315, ../_sass/main.sass */
-section#work li.loading .visual {
-  opacity: 0.35;
-  background-size: cover;
-}
-/* line 319, ../_sass/main.sass */
-section#work li.loading .work-header h2 {
-  font-size: 50px;
-  margin-top: 10px;
-}
-@media only screen and (min-width: 768px) {
-  /* line 319, ../_sass/main.sass */
-  section#work li.loading .work-header h2 {
-    margin-top: -40px;
-  }
-}
-/* line 324, ../_sass/main.sass */
-section#work li.loading .work-header h3 {
-  opacity: 0;
-}
-/* line 326, ../_sass/main.sass */
-section#work li.openWork {
-  opacity: 1;
-  font-size: 16px;
-}
-/* line 330, ../_sass/main.sass */
-section#work li.openWork div.info {
-  display: block;
-}
-/* line 333, ../_sass/main.sass */
-section#work li.dias div.info ul, section#work li.sheff div.info ul, section#work li.ntrust div.info ul {
-  margin-top: 10px;
-}
-@media only screen and (min-width: 768px) {
-  /* line 333, ../_sass/main.sass */
-  section#work li.dias div.info ul, section#work li.sheff div.info ul, section#work li.ntrust div.info ul {
-    margin-top: 60px;
-  }
-}
-/* line 337, ../_sass/main.sass */
-section#work li.dias div.info ul li, section#work li.sheff div.info ul li, section#work li.ntrust div.info ul li {
-  display: block;
-  margin-bottom: 20px;
-}
-/* line 340, ../_sass/main.sass */
-section#work li.dias div.info ul a, section#work li.sheff div.info ul a, section#work li.ntrust div.info ul a {
-  margin-bottom: 10px;
-}
-/* line 342, ../_sass/main.sass */
-section#work li.dias div.info ul a:hover, section#work li.sheff div.info ul a:hover, section#work li.ntrust div.info ul a:hover {
-  opacity: 0.7;
-  transition: 0.5s ease-out;
-}
-/* line 345, ../_sass/main.sass */
-section#work li.dias div.info .desc, section#work li.sheff div.info .desc, section#work li.ntrust div.info .desc {
-  font-size: 16px;
-  font-weight: 300;
-  letter-spacing: 1px;
-}
-/* line 349, ../_sass/main.sass */
-section#work li.dias div.info .desc a, section#work li.sheff div.info .desc a, section#work li.ntrust div.info .desc a {
-  color: white;
-}
-/* line 351, ../_sass/main.sass */
-section#work li.dias div.info .desc a:hover, section#work li.sheff div.info .desc a:hover, section#work li.ntrust div.info .desc a:hover {
-  opacity: 0.7;
-  transition: 0.5s ease-out;
-}
-/* line 355, ../_sass/main.sass */
-section#work li.dias div.info .before, section#work li.sheff div.info .before, section#work li.ntrust div.info .before {
-  opacity: 0;
-  -webkit-transform: scale(0.3);
-  -moz-transform: scale(0.3);
-  -ms-transform: scale(0.3);
-  -o-transform: scale(0.3);
-  transform: scale(0.3);
-  transition: all 0.3s ease-out;
-}
-@media only screen and (min-width: 768px) {
-  /* line 355, ../_sass/main.sass */
-  section#work li.dias div.info .before, section#work li.sheff div.info .before, section#work li.ntrust div.info .before {
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-}
-/* line 369, ../_sass/main.sass */
-section#work li.dias div.info .before img, section#work li.sheff div.info .before img, section#work li.ntrust div.info .before img {
-  margin: -160px;
-}
-@media only screen and (min-width: 768px) {
-  /* line 369, ../_sass/main.sass */
-  section#work li.dias div.info .before img, section#work li.sheff div.info .before img, section#work li.ntrust div.info .before img {
-    margin: -90px;
-  }
-}
-/* line 373, ../_sass/main.sass */
-section#work li.dias div.info ul, section#work li.dias div.info .desc, section#work li.sheff div.info ul, section#work li.sheff div.info .desc, section#work li.ntrust div.info ul, section#work li.ntrust div.info .desc {
-  opacity: 0;
-  transition: all 0.9s ease-out;
-  margin-left: 30px;
-}
-/* line 377, ../_sass/main.sass */
-section#work li.dias div.info ul, section#work li.sheff div.info ul, section#work li.ntrust div.info ul {
-  -webkit-transform: translateX(5px);
-  -moz-transform: translateX(5px);
-  -ms-transform: translateX(5px);
-  -o-transform: translateX(5px);
-  transform: translateX(5px);
-}
-/* line 383, ../_sass/main.sass */
-section#work li.dias div.info .desc, section#work li.sheff div.info .desc, section#work li.ntrust div.info .desc {
-  -webkit-transform: translateX(-5px);
-  -moz-transform: translateX(-5px);
-  -ms-transform: translateX(-5px);
-  -o-transform: translateX(-5px);
-  transform: translateX(-5px);
-}
-/* line 389, ../_sass/main.sass */
-section#work li.dias div.info ul.reveal, section#work li.dias div.info .desc.reveal, section#work li.sheff div.info ul.reveal, section#work li.sheff div.info .desc.reveal, section#work li.ntrust div.info ul.reveal, section#work li.ntrust div.info .desc.reveal {
-  opacity: 1;
-  -webkit-transform: translateX(0);
-  -moz-transform: translateX(0);
-  -ms-transform: translateX(0);
-  -o-transform: translateX(0);
-  transform: translateX(0);
-}
-/* line 396, ../_sass/main.sass */
-section#work li.dias div.info .before.reveal, section#work li.sheff div.info .before.reveal, section#work li.ntrust div.info .before.reveal {
-  opacity: 1;
-  -webkit-transform: scale(0.5);
-  -moz-transform: scale(0.5);
-  -ms-transform: scale(0.5);
-  -o-transform: scale(0.5);
-  transform: scale(0.5);
-}
-@media only screen and (min-width: 768px) {
-  /* line 396, ../_sass/main.sass */
-  section#work li.dias div.info .before.reveal, section#work li.sheff div.info .before.reveal, section#work li.ntrust div.info .before.reveal {
-    -webkit-transform: scale(0.7);
-    -moz-transform: scale(0.7);
-    -ms-transform: scale(0.7);
-    -o-transform: scale(0.7);
-    transform: scale(0.7);
-  }
-}
-
-/* line 410, ../_sass/main.sass */
-iframe {
-  margin-left: -170px;
-  margin-top: -40px;
-}
-@media only screen and (min-width: 768px) {
-  /* line 410, ../_sass/main.sass */
-  iframe {
-    margin-top: 20px;
-    margin-left: -100px;
-  }
-}
-
-/* Footer */
-/* line 420, ../_sass/main.sass */
-.interact {
-  background: black;
-  color: white;
-  height: 190px;
-  z-index: 1;
-}
-/* line 425, ../_sass/main.sass */
-.interact h3 {
-  text-align: center;
-  padding: 10px 0;
-}
-/* line 428, ../_sass/main.sass */
-.interact .mail {
-  text-align: center;
-}
-/* line 430, ../_sass/main.sass */
-.interact .mail a {
-  color: white;
-}
-/* line 432, ../_sass/main.sass */
-.interact .mail a:hover {
-  opacity: 0.7;
-  transition: 0.5s;
-}
-/* line 435, ../_sass/main.sass */
-.interact .mail .fa {
-  padding: 0 10px;
-}
-/* line 437, ../_sass/main.sass */
-.interact .mail .fa:hover {
-  opacity: 0.7;
-  transition: 0.5s;
-}
-/* line 440, ../_sass/main.sass */
-.interact .icons {
-  text-align: center;
-}
-/* line 442, ../_sass/main.sass */
-.interact .icons p {
-  display: inline-block;
-}
-/* line 444, ../_sass/main.sass */
-.interact .icons a {
-  color: white;
-}
-/* line 446, ../_sass/main.sass */
-.interact .icons .fa {
-  padding: 20px 20px;
-}
-/* line 448, ../_sass/main.sass */
-.interact .icons .fa:hover {
-  opacity: 0.7;
-  transition: 0.5s;
-}
-
-/*Profile */
-/* line 455, ../_sass/main.sass */
-.bio, .blogfull {
-  padding: 30px 20px 30px 80px;
-}
-/* line 457, ../_sass/main.sass */
-.bio body, .blogfull body {
-  background-color: #eeeeee;
-}
-/* line 459, ../_sass/main.sass */
-.bio h3, .blogfull h3 {
-  font-size: 28px;
-  padding: 20px 0;
-}
-/* line 462, ../_sass/main.sass */
-.bio p, .blogfull p {
-  padding-right: 4px;
-  line-height: 1.85;
-  font-size: 16px;
-  font-weight: 300;
-}
-@media only screen and (min-width: 768px) {
-  /* line 462, ../_sass/main.sass */
-  .bio p, .blogfull p {
-    padding: 0 130px 20px 0;
-  }
-}
-/* line 469, ../_sass/main.sass */
-.bio p:last-child, .blogfull p:last-child {
-  margin-bottom: 24px;
-}
-
-/* line 473, ../_sass/main.sass */
-.profile-pic img {
-  width: 100%;
-  height: 100%;
-}
-
-/* line 476, ../_sass/main.sass */
-.cv {
-  padding-left: 80px;
-  padding-bottom: 30px;
-}
-
-/* line 479, ../_sass/main.sass */
-.btn {
-  background-color: white;
-  border-radius: 6px;
-  border: 1px solid black;
-  display: inline-block;
-  cursor: pointer;
-  color: #666666;
-  padding: 6px 24px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px white;
-}
+Backtrace:
+/Users/Joe/Documents/portfolio/_sass/main.sass:491
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1147:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1085:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1067:in `expr!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:794:in `pseudo'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:678:in `simple_selector_sequence'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:640:in `_selector'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:624:in `selector_comma_sequence'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1066:in `expr!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/static_parser.rb:20:in `parse_selector'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:314:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/tree/root_node.rb:20:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/compiler.rb:126:in `timed'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/compiler.rb:138:in `block in compile'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/logger.rb:45:in `red'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/compiler.rb:137:in `compile'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/compiler.rb:118:in `compile_if_required'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/compiler.rb:101:in `each'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/compiler.rb:101:in `block in run'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/compiler.rb:126:in `timed'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/compiler.rb:100:in `run'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/commands/update_project.rb:45:in `perform'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/commands/base.rb:18:in `execute'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/commands/project_base.rb:19:in `execute'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/Joe/Documents/portfolio/_plugins/generator_scss.rb:23:in `block in generate'
+/Users/Joe/Documents/portfolio/_plugins/generator_scss.rb:22:in `chdir'
+/Users/Joe/Documents/portfolio/_plugins/generator_scss.rb:22:in `generate'
+/Library/Ruby/Gems/2.0.0/gems/jekyll-2.1.1/lib/jekyll/site.rb:243:in `block in generate'
+/Library/Ruby/Gems/2.0.0/gems/jekyll-2.1.1/lib/jekyll/site.rb:242:in `each'
+/Library/Ruby/Gems/2.0.0/gems/jekyll-2.1.1/lib/jekyll/site.rb:242:in `generate'
+/Library/Ruby/Gems/2.0.0/gems/jekyll-2.1.1/lib/jekyll/site.rb:42:in `process'
+/Library/Ruby/Gems/2.0.0/gems/jekyll-2.1.1/lib/jekyll/command.rb:53:in `process_site'
+/Library/Ruby/Gems/2.0.0/gems/jekyll-watch-1.0.0/lib/jekyll/commands/watch.rb:35:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:276:in `call'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:276:in `_process_changes'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:233:in `block in _wait_for_changes'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:216:in `loop'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:216:in `_wait_for_changes'
+/Library/Ruby/Gems/2.0.0/gems/listen-2.7.9/lib/listen/listener.rb:312:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"padding-left:\": expected pseudoclass or pseudoelement, was \"0\"\A         on line 491 of /Users/Joe/Documents/portfolio/_sass/main.sass"; }
