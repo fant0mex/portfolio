@@ -607,7 +607,7 @@ iframe {
 /*Profile */
 /* line 455, ../_sass/main.sass */
 .bio, .blogfull {
-  padding: 0;
+  padding: 10px;
 }
 @media only screen and (min-width: 768px) {
   /* line 455, ../_sass/main.sass */
@@ -657,11 +657,17 @@ iframe {
 
 /* line 481, ../_sass/main.sass */
 .cv {
-  padding-left: 80px;
+  padding-left: 10px;
   padding-bottom: 30px;
 }
+@media only screen and (min-width: 768px) {
+  /* line 481, ../_sass/main.sass */
+  .cv {
+    padding-left: 80px;
+  }
+}
 
-/* line 484, ../_sass/main.sass */
+/* line 486, ../_sass/main.sass */
 .btn {
   background-color: white;
   border-radius: 6px;
@@ -674,7 +680,7 @@ iframe {
   text-shadow: 0px 1px 0px white;
 }
 
-/* line 494, ../_sass/main.sass */
+/* line 496, ../_sass/main.sass */
 .special {
   padding: 0;
 }
