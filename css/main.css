@@ -636,18 +636,20 @@ iframe {
   margin-bottom: 24px;
 }
 
-/* line 473, ../_sass/main.sass */
-.profile-pic img {
-  width: 100%;
+/* line 472, ../_sass/main.sass */
+.profile-pic {
+  background-image: url("../img/joe_profile.jpg") !important;
+  background: 50% 0 no-repeat;
   height: 100%;
+  background-size: cover;
 }
 
-/* line 476, ../_sass/main.sass */
+/* line 477, ../_sass/main.sass */
 .cv {
   padding-left: 80px;
 }
 
-/* line 478, ../_sass/main.sass */
+/* line 479, ../_sass/main.sass */
 .btn {
   background-color: white;
   border-radius: 6px;
