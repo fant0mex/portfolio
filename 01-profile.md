@@ -21,6 +21,7 @@ permalink: /profile/
     </div>
     <div class="col-sm-5">
       <div class="profile-pic">
+        <img src="../img/joe_profile.jpg">
       </div>
     </div>
   </section>
