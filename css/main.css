@@ -662,7 +662,6 @@ iframe {
 }
 
 /* line 489, ../_sass/main.sass */
-.no-gutter {
-  padding-left: 0;
-  padding-right: 0;
+.special {
+  padding: 0;
 }

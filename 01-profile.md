@@ -4,7 +4,7 @@ title: Profile
 permalink: /profile/
 ---
 
-<div class="row no-gutter">
+<div class="clearfux">
   <section class="about">
     <div class="col-sm-7">
       <div class="bio">
@@ -19,7 +19,7 @@ permalink: /profile/
         <a href="#" target="_blank" class="btn">Download my CV</a>
       </div>
     </div>
-    <div class="col-sm-5">
+    <div class="col-sm-5 special">
       <div class="profile-pic">
         <img src="../img/joe_profile.jpg">
       </div>
