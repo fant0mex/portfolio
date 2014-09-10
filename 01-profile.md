@@ -16,7 +16,7 @@ permalink: /profile/
         <p>I'm currently looking for further internship opportunities or junior positions, so feel free to get in touch!</p>
       </div>
       <div>
-        <a href="#" target="_blank" class="btn btn-transparent">Download my CV</a>
+        <a href="#" target="_blank" class="btn">Download my CV</a>
       </div>
     </div>
     <div class="col-sm-5">
