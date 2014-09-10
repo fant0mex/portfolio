@@ -4,9 +4,9 @@ title: Profile
 permalink: /profile/
 ---
 
-
+<div class="row no-gutter">
   <section class="about">
-    <div class="col-lg-7">
+    <div class="col-sm-7">
       <div class="bio">
         <h3>About</h3>
         <p>Hi, I'm Joe, a Front-End Developer from London. After working in video for a number of years,
@@ -19,9 +19,10 @@ permalink: /profile/
         <a href="#" target="_blank" class="btn">Download my CV</a>
       </div>
     </div>
-    <div class="col-lg-5">
+    <div class="col-sm-5">
       <div class="profile-pic">
         <img src="../img/joe_profile.jpg">
       </div>
     </div>
   </section>
+</div>
