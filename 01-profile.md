@@ -4,7 +4,7 @@ title: Profile
 permalink: /profile/
 ---
 
-<div class="clearfux">
+<div class="clearfix">
   <section class="about">
     <div class="col-sm-7">
       <div class="bio">
