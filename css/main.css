@@ -1,9 +1,9 @@
 /*
-Syntax error: Invalid CSS after "background-color:": expected pseudoclass or pseudoelement, was "#ffffff"
-        on line 478 of /Users/Joe/Documents/portfolio/_sass/main.sass
+Syntax error: Invalid CSS after "border:": expected pseudoclass or pseudoelement, was "1px solid #dcdcdc"
+        on line 480 of /Users/Joe/Documents/portfolio/_sass/main.sass
 
 Backtrace:
-/Users/Joe/Documents/portfolio/_sass/main.sass:478
+/Users/Joe/Documents/portfolio/_sass/main.sass:480
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1147:in `expected'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1085:in `expected'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1067:in `expr!'
@@ -75,4 +75,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"background-color:\": expected pseudoclass or pseudoelement, was \"#ffffff\"\A         on line 478 of /Users/Joe/Documents/portfolio/_sass/main.sass"; }
+  content: "Syntax error: Invalid CSS after \"border:\": expected pseudoclass or pseudoelement, was \"1px solid #dcdcdc\"\A         on line 480 of /Users/Joe/Documents/portfolio/_sass/main.sass"; }
