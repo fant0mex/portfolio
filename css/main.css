@@ -607,18 +607,24 @@ iframe {
 /*Profile */
 /* line 455, ../_sass/main.sass */
 .bio, .blogfull {
-  padding: 30px 20px 30px 80px;
+  padding: 0;
 }
-/* line 458, ../_sass/main.sass */
+@media only screen and (min-width: 1044px) {
+  /* line 455, ../_sass/main.sass */
+  .bio, .blogfull {
+    padding: 30px 20px 30px 80px;
+  }
+}
+/* line 459, ../_sass/main.sass */
 .bio body, .blogfull body {
   background-color: #eeeeee;
 }
-/* line 460, ../_sass/main.sass */
+/* line 461, ../_sass/main.sass */
 .bio h3, .blogfull h3 {
   font-size: 28px;
   padding: 20px 0;
 }
-/* line 463, ../_sass/main.sass */
+/* line 464, ../_sass/main.sass */
 .bio p, .blogfull p {
   padding-right: 4px;
   line-height: 1.85;
@@ -626,29 +632,29 @@ iframe {
   font-weight: 300;
 }
 @media only screen and (min-width: 768px) {
-  /* line 463, ../_sass/main.sass */
+  /* line 464, ../_sass/main.sass */
   .bio p, .blogfull p {
     padding: 0 130px 20px 0;
   }
 }
-/* line 470, ../_sass/main.sass */
+/* line 471, ../_sass/main.sass */
 .bio p:last-child, .blogfull p:last-child {
   margin-bottom: 24px;
 }
 
-/* line 474, ../_sass/main.sass */
+/* line 475, ../_sass/main.sass */
 .profile-pic img {
   width: 100%;
   height: 100%;
 }
 
-/* line 477, ../_sass/main.sass */
+/* line 478, ../_sass/main.sass */
 .cv {
   padding-left: 80px;
   padding-bottom: 30px;
 }
 
-/* line 480, ../_sass/main.sass */
+/* line 481, ../_sass/main.sass */
 .btn {
   background-color: white;
   border-radius: 6px;
@@ -661,7 +667,7 @@ iframe {
   text-shadow: 0px 1px 0px white;
 }
 
-/* line 490, ../_sass/main.sass */
+/* line 491, ../_sass/main.sass */
 .special {
   padding: 0;
 }
