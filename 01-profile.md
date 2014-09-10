@@ -4,7 +4,7 @@ title: Profile
 permalink: /profile/
 ---
 
-<div class="container">
+<div class="row">
   <section class="about">
     <div class="col-sm-7">
       <div class="bio">
@@ -14,6 +14,9 @@ permalink: /profile/
         <p>After completing a Front-End course with the wonderful people at <a href="https://www.steer.me/courses">Steer</a>,
           I undertook an internship with <a href="http://www.diascreative.com">DIAS_</a>, a digital agency.</p>
         <p>I'm currently looking for further internship opportunities or junior positions, so feel free to get in touch!</p>
+      </div>
+      <div>
+        <a href="#" target="_blank" class="btn btn-transparent">Download my CV</a>
       </div>
     </div>
     <div class="col-sm-5">
