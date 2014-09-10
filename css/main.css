@@ -642,7 +642,12 @@ iframe {
   height: 100%;
 }
 
-/* line 477, ../_sass/main.sass */
+/* line 476, ../_sass/main.sass */
+.cv {
+  padding-left: 80px;
+}
+
+/* line 478, ../_sass/main.sass */
 .btn {
   background-color: white;
   border-radius: 6px;

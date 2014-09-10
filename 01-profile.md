@@ -15,7 +15,7 @@ permalink: /profile/
           I undertook an internship with <a href="http://www.diascreative.com">DIAS_</a>, a digital agency.</p>
         <p>I'm currently looking for further internship opportunities or junior positions, so feel free to get in touch!</p>
       </div>
-      <div>
+      <div class="cv">
         <a href="#" target="_blank" class="btn">Download my CV</a>
       </div>
     </div>
