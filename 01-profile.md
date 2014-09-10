@@ -20,7 +20,9 @@ permalink: /profile/
       </div>
     </div>
     <div class="col-sm-5">
-      <img src="../img/joe_profile.jpg">
+      <div class="profile-pic">
+        <img src="../img/joe_profile.jpg">
+      </div>
     </div>
   </section>
 </div>
