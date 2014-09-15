@@ -93,7 +93,6 @@ function openWork(){
   }, 1600);
 }
 
-
 $('.slate').on('click', openWork);
 
 $('body').on('click','.closeBtn', function(e){
@@ -101,9 +100,3 @@ $('body').on('click','.closeBtn', function(e){
   e.stopPropagation();
   closeWork();
 });
-
-
-
-
-
-
