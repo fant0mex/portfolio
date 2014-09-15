@@ -658,16 +658,16 @@ iframe {
 /* line 481, ../_sass/main.sass */
 .cv {
   padding-left: 10px;
+  padding-bottom: 30px;
 }
 @media only screen and (min-width: 768px) {
   /* line 481, ../_sass/main.sass */
   .cv {
     padding-left: 80px;
-    padding-bottom: 30px;
   }
 }
 
-/* line 486, ../_sass/main.sass */
+/* line 487, ../_sass/main.sass */
 .btn {
   background-color: white;
   border-radius: 6px;
@@ -680,14 +680,14 @@ iframe {
   text-decoration: none;
   transition: 0.5s;
 }
-/* line 497, ../_sass/main.sass */
+/* line 498, ../_sass/main.sass */
 .btn:hover {
   background-color: #666666;
   color: white;
   transition: 0.5s;
 }
 
-/* line 501, ../_sass/main.sass */
+/* line 502, ../_sass/main.sass */
 .special {
   padding: 0;
 }
