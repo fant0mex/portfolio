@@ -678,15 +678,16 @@ iframe {
   color: #666666;
   padding: 6px 24px;
   text-decoration: none;
+  transition: 0.5s;
 }
-/* line 496, ../_sass/main.sass */
+/* line 497, ../_sass/main.sass */
 .btn:hover {
   background-color: #666666;
   color: white;
-  transition: 0.5s ease-out;
+  transition: 0.5s;
 }
 
-/* line 500, ../_sass/main.sass */
+/* line 501, ../_sass/main.sass */
 .special {
   padding: 0;
 }
