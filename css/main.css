@@ -683,7 +683,7 @@ iframe {
 .btn:hover {
   background-color: #666666;
   color: white;
-  transition: 0.5s;
+  transition: 0.5s ease-out;
 }
 
 /* line 500, ../_sass/main.sass */
