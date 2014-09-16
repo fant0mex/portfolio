@@ -43,21 +43,22 @@ $('.parallax').parallax({
   speed : -0.5
 });
 
+var $loading = $('.overlay').hide();
+$(document)
+  .ajaxStart(function () {
+    $loading.show();
+  })
+  .ajaxStop(function () {
+    $loading.hide();
+  });
+
+
 $window = $(window);
 if( $window.width() > 800){
   $('a[href^="#"]').click(function() {
   $('#work').velocity('scroll', { duration: 600 });
 });
 }
-
-$('.header-sub').css('background-image').one('load', function() {
-  $('.overlay').remove();
-}).each(function() {
-  if(this.complete) {
-    $(this).trigger('load');
-  }
-});
-
 
 function closeWork(){
   $('.info').find('p').removeClass('reveal');
