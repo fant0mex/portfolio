@@ -154,7 +154,9 @@ a.site-title
 .hero-caption
   position: relative
   z-index: 20
-  margin-top: 240px
+  margin-top: 130px
+  +respond-to(not-xs)
+    margin-top: 240px
   h5
     font-size: 14px
     letter-spacing: 6px
