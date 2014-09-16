@@ -43,7 +43,7 @@ $('.parallax').parallax({
   speed : -0.5
 });
 
-$('.header-sub').load(function() {
+$('.header-sub').css('background-image', 'url("../img/joe_header02.jpg")').load(function() {
   $('.overlay').fadeOut();
 });
 
