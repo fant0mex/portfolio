@@ -44,7 +44,7 @@ $('.parallax').parallax({
 });
 
 $('.header-sub').css('background-image', 'url("../img/joe_header02.jpg")').load(function() {
-  $('.overlay').fadeOut();
+  $('.overlay').css('opacity', 0);
 });
 
 
