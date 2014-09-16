@@ -43,17 +43,16 @@ $('.parallax').parallax({
   speed : -0.5
 });
 
-$('.header-sub').css('background-image', 'url("../img/joe_header02.jpg")').load(function() {
-  $('.overlay').css('opacity', 0);
-});
-
-
 $window = $(window);
 if( $window.width() > 800){
   $('a[href^="#"]').click(function() {
   $('#work').velocity('scroll', { duration: 600 });
 });
 }
+
+$(window).load(function(){
+  $('.overlay').fadeOut();
+});
 
 function closeWork(){
   $('.info').find('p').removeClass('reveal');
