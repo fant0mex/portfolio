@@ -50,8 +50,12 @@ if( $window.width() > 800){
 });
 }
 
-$('.header-sub').css('background-image').load(function() {
-  $('.overlay').fadeOut();
+$('.header-sub').css('background-image').one('load', function() {
+  $('.overlay').remove();
+}).each(function() {
+  if(this.complete) {
+    $(this).trigger('load');
+  }
 });
 
 
