@@ -50,6 +50,11 @@ if( $window.width() > 800){
 });
 }
 
+$('.header-sub').css('background-image').load(function() {
+  $('.overlay').fadeOut();
+});
+
+
 function closeWork(){
   $('.info').find('p').removeClass('reveal');
   $('.info').find('.before').removeClass('reveal');
