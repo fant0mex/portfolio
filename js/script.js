@@ -43,14 +43,9 @@ $('.parallax').parallax({
   speed : -0.5
 });
 
-var $loading = $('.overlay').hide();
-$(document)
-  .ajaxStart(function () {
-    $loading.show();
-  })
-  .ajaxStop(function () {
-    $loading.hide();
-  });
+$('.header-sub').load(function() {
+  $('.overlay').fadeOut();
+});
 
 
 $window = $(window);
