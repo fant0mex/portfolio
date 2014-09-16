@@ -50,9 +50,11 @@ if( $window.width() > 800){
 });
 }
 
+if( $window.width() > 800){
 $(window).load(function(){
   $('.overlay').fadeOut();
 });
+}
 
 function closeWork(){
   $('.info').find('p').removeClass('reveal');
