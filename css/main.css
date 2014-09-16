@@ -200,7 +200,7 @@ a.site-title:hover {
 .hero-caption {
   position: relative;
   z-index: 20;
-  margin-top: 130px;
+  margin-top: 120px;
 }
 @media only screen and (min-width: 768px) {
   /* line 154, ../_sass/main.sass */
@@ -228,7 +228,7 @@ a.site-title:hover {
 .hero-caption a {
   color: white;
   font-size: 20px;
-  padding: 48px 0 0;
+  padding: 44px 0 0;
 }
 @media only screen and (min-width: 768px) {
   /* line 172, ../_sass/main.sass */
