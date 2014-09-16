@@ -44,6 +44,9 @@ a:-webkit-any-link
   position: absolute
   z-index: 1000
   background-color: #1acb9c
+  display: none
+  +respond-to(not-xs)
+    display: inline
 
 .spinner
   width: 60px
