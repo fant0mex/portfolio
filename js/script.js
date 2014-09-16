@@ -52,6 +52,7 @@ if( $window.width() > 800){
 
 if( $window.width() > 800){
 $(window).load(function(){
+  $('body').css('overflow','auto');
   $('.overlay').fadeOut();
 });
 }
