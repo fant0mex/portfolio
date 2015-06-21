@@ -1,4 +1,4 @@
-@import "compass"
+
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700)
 
@@ -29,7 +29,9 @@ body
   background: #FFF
   font-size: 14px
   color: #424242
-  overflow: hidden
+  overflow: visible
+  +respond-to(not-xs)
+    overflow: hidden
   a:hover
     text-decoration: none
   ul
@@ -53,9 +55,9 @@ a:-webkit-any-link
   width: 60px
   height: 60px
   background-color: #FFF
-  margin: 150px auto
+  margin: 28% auto
   +respond-to(not-xs)
-    margin: 350px auto
+    margin: 25% auto
   -webkit-animation: rotateplane 1.2s infinite ease-in-out
   animation: rotateplane 1.2s infinite ease-in-out
 
@@ -137,6 +139,7 @@ a.site-title
   background-image: url("../img/joe_header02.jpg")!important
   background: 50% 0 no-repeat
   height: 100%
+  max-height: 100%
   background-size: cover
   position: relative
   &.profile
@@ -300,6 +303,9 @@ section#work
     &.ntrust .visual
       background: url('../img/work/nat_trust/bridge.jpg') center center no-repeat
       background-size: cover
+    &.bb .visual
+      background: url('../img/work/bb/photobb.jpg') center center no-repeat
+      background-size: cover
 
     // section#works li div.content {position: relative;height: 100%;z-index: 2;}
 
@@ -374,7 +380,7 @@ section#work li
 
     div.info
       display: block
-  &.dias div.info, &.sheff div.info, &.ntrust div.info
+  &.dias div.info, &.sheff div.info, &.ntrust div.info, &.bb div.info
     ul
       margin-top: 10px
       +respond-to(not-xs)

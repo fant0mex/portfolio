@@ -1,60 +1,15 @@
-(function($) {
-  $.fn.parallax = function(options) {
-    $window = $(window);
-    if( $window.width() > 800){
-        var windowHeight = $(window).height();
-
-        // Establish default settings
-        var settings = $.extend({
-            speed        : 0.15
-        }, options);
-
-        // Iterate over each object in collection
-        return this.each( function() {
-
-          // Save a reference to the element
-          var $this = $(this);
-
-          // Set up Scroll Handler
-          $(document).scroll(function(){
-
-            var scrollTop = $(window).scrollTop();
-            var offset = $this.offset().top;
-            var height = $this.outerHeight();
-
-                // Check if above or below viewport
-            if (offset + height <= scrollTop || offset >= scrollTop + windowHeight) {
-            return;
-            }
-
-            var yBgPosition = Math.round((offset - scrollTop) * settings.speed);
-
-                      // Apply the Y Background Position to Set the Parallax Effect
-            $this.css('background-position', 'center ' + yBgPosition + 'px');
-
-          });
-        });
-      }
-    };
-}(jQuery));
-
-
-$('.parallax').parallax({
-  speed : -0.5
-});
-
 $window = $(window);
 if( $window.width() > 800){
-  $('a[href^="#"]').click(function() {
+  $('a[href^="#"]').on('click', function() {
   $('#work').velocity('scroll', { duration: 600 });
 });
 }
 
 if( $window.width() > 800){
-$(window).load(function(){
-  $('body').css('overflow','auto');
-  $('.overlay').fadeOut();
-});
+  $(document).ready(function(){
+    $('body').css('overflow','auto');
+    $('.overlay').fadeOut();
+  });
 }
 
 function closeWork(){
@@ -88,11 +43,11 @@ function openWork(){
   if ($(window).width() > 768) {
     $('html').addClass('stopScroll');
   }
-  setTimeout(function(e) {
+  setTimeout(function() {
     $dias.addClass('openWork loading');
 
   }, 1250);
-  setTimeout(function() {
+  setTimeout(function(e) {
     $('.info').find('p').addClass('reveal');
     $('.info').find('.before').addClass('reveal');
     $('.info').find('ul').addClass('reveal');
