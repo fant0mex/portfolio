@@ -5,12 +5,12 @@ if( $window.width() > 800){
 });
 }
 
-if( $window.width() > 800){
-  $(document).ready(function(){
-    $('body').css('overflow','auto');
-    $('.overlay').fadeOut();
-  });
-}
+// if( $window.width() > 800){
+//   $(document).ready(function(){
+//     $('body').css('overflow','auto');
+//     $('.overlay').fadeOut();
+//   });
+// }
 
 function closeWork(){
   $('.info').find('p').removeClass('reveal');
