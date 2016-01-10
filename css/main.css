@@ -8,7 +8,7 @@ body {
   overflow: visible; }
   @media only screen and (min-width: 768px) {
     body {
-      overflow: hidden; } }
+       } }
   body a:hover {
     text-decoration: none; }
   body ul {
@@ -260,7 +260,9 @@ section#work {
       text-transform: uppercase;
       font-size: 18px;
       font-weight: 300;
-      color: #FFF; }
+      color: #FFF;}
+    section#work li div.info a.out:focus {
+      text-decoration: none;}
       section#work li div.info a.out.pointer {
         pointer-events: none; }
     section#work li div.info p {
@@ -331,7 +333,6 @@ a.closeBtn {
     transform: rotateZ(-45deg); }
 
 section#work li.loading {
-  cursor: default;
   overflow: hidden;
   position: relative;
   z-index: 35; }
