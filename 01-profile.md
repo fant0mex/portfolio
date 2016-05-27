@@ -16,7 +16,7 @@ permalink: /profile/
         <p>I'm currently working as a Junior i-Dev at digital agency <a href="http://www.syzygy.co.uk/">Syzygy</a>.</p>
       </div>
       <div class="cv">
-        <a href="../img/joe-hobson.pdf" target="_blank" class="btn">Download my CV</a>
+        <a href="../img/joe-hobson-2016.pdf" target="_blank" class="btn">Download my CV</a>
       </div>
     </div>
     <div class="col-md-5 special">
